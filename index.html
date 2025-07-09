@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lisakhanya Home Page</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <div class="header-logo-name">
+        <button id="ham-btn" class="hamburger"></button>
+        <img src="images/kot-logo.svg" alt="Logo">
+        <span>Lisakhanya Gasa</span>
+    </div>
+
+    <nav class="nav-bar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">Final</a></li>
+        </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Home</h1>
+    <div class="about-me-container">
+        <section class="about-me">
+            <h2 class="page-header">About Me</h2>
+            <p>My name is Lisakhanya Masiza, maiden surname Gasa, 
+                and I live in Mdantsane, South Africa. I am 29 
+                years of age, although I 99% of the time believe 
+                I am 16 years young. I have a wonderful, supportive 
+                husband, and 3 beautiful children. I'm very creative,
+                love to sing and can be quite mean on the tennis 
+                court (when my knees are behaving).</p>
+            </section>
+
+        <section class="about-me-photo">
+            <h2 class="page-header">Student Photo</h2>
+            <img src="images/profile.jpg" alt="Lisa Profile Image">
+        </section>
+    </div>
+
+    <!-- WEB CERTIFICATE COURSES -->
+     <section class="course-buttons">
+
+        <button id="all" class="all-btn">ALL</button>
+
+        <button id="cse" class="cse-btn">CSE</button>
+
+        <button id="wdd" class="wdd-btn">WDD</button>
+
+    </section>
+
+    <section id="courses" class="course-list"></section>
+
+    <section>
+        <ul class="social-icons">
+            <li><a href="#"><img src="images/facebook-icon.png" alt="Facebok Icon"></a></li>
+            
+            <li><a href="https://www.linkedin.com/in/lisakhanya-masiza-10lm10/" target="_blank" rel="noopener noreferrer">
+                <img src="images/linkedin-icon.png" alt="LinkedIn Icon">
+            </a></li>
+
+            <li><a href="https://github.com/MLisa95" target="_blank" rel="noopener noreferrer">
+                <img src="images/github-icon.png" alt="Github Icon">
+            </a></li>
+        </ul>
+    </section>
+
+  </main>
+
+    <footer>
+        <p>2025 | Lisakhanya | South Africa</p>
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+</html>
