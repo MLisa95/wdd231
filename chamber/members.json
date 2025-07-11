@@ -1,0 +1,58 @@
+[
+    {
+        "name": "ByteNest",
+        "tagline": "Ideas Take Digital Flight.",
+        "email": "bytenest@byte.org",
+        "phone": "087-456-8891",
+        "url": "https://bytenest.com",
+        "logo": "images/business1.png"
+    },
+    {
+        "name": "NeuraForge",
+        "tagline": "Crafting Tomorrow's Intelligence.",
+        "email": "info@neura.org",
+        "phone": "087-456-8891",
+        "url": "https://neuraforge.com",
+        "logo": "images/business2.png"
+    },
+    {
+        "name": "Quantum Willow",
+        "tagline": "Natural Heights",
+        "email": "quantum@willow.org",
+        "phone": "087-456-8891",
+        "url": "https://quantumwillow.com",
+        "logo": "images/business3.png"
+    },
+    {
+        "name": "Code Harbor",
+        "tagline": "Dock Here. Build Anything.",
+        "email": "bytenest@byte.org",
+        "phone": "087-456-8891",
+        "url": "https://bytenest.com",
+        "logo": "images/business4.png"
+    },
+    {
+        "name": "Thread Cove",
+        "tagline": "Wrap Yourself in Wonder",
+        "email": "threadcove@info.org",
+        "phone": "087-456-8891",
+        "url": "https://threadcove.com",
+        "logo": "images/business5.png"
+    },
+    {
+        "name": "SpiceFig",
+        "tagline": "Bites That Make You Dance",
+        "email": "info@spicefig.org",
+        "phone": "087-456-8891",
+        "url": "https://spicefig.com",
+        "logo": "images/business6.png"
+    },
+    {
+        "name": "SoulMoss Spa",
+        "tagline": "Find Your Still.",
+        "email": "spa@soulmoss.org",
+        "phone": "087-456-8891",
+        "url": "https://soulmoss-spa.com",
+        "logo": "images/business7.png"
+    }
+]

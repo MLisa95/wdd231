@@ -1,0 +1,68 @@
+@media screen and (max-width: 768px) {
+
+    /******* HEADER *******/
+    header {
+        display: block;
+        grid-template-columns: auto auto;
+        /* justify-content: space-between;
+        padding: 10px;
+        position: relative;
+        gap: 50px; */
+    }
+
+    /******* EVENTS SECTION *******/
+    .events-container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .events,
+    .current-weather-container,
+    .weather-forecast {
+        flex: 1 1 100%;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    #businessCards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-body {
+        width: 250px;
+    }
+
+    /******* HAMBURGER ********/
+    .hamburger {
+        display: block;
+        margin-left: auto;
+        
+    }
+
+    .hamburger::after {
+        content: "\2630"; /* ☰ */
+        font-size: 2rem;
+    }
+
+    .hamburger.show::after {
+        content: "\00D7"; /* × */
+        font-size: 2rem;
+    }
+
+    .nav-bar ul {
+        display: none; /* Hide menu by default */
+        flex-direction: column;
+        background-color: rgb(196, 207, 211);
+        position: absolute;
+        top: 70px; /* Below header */
+        left: 0;
+        right: 0;
+        padding: 1rem;
+        z-index: 999;
+    }
+
+    .nav-bar ul.show {
+        display: flex; /* Show menu when toggled */
+    }
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A page that aims to uplift the local community by providing a sapce for collaboration, networking opportunities and encouraging local shopping.">
+    <meta name="author" content="Lisakhanya Gasa">
+    <meta property="og:title" content="Chamber Directory Page listing businesses that are a member of our Chamber of Commerce."/>
+    <meta property="og:description" content="A page that aims to uplift the local community by providing a sapce for collaboration, networking opportunities and encouraging local shopping. Providing information on how your business can join this community and fulfill its goals with support from others."/>
+    <meta property="og:image" content="images/chamber-mdantsane.png"/>
+    <meta property="og:url" content=""/>
+    <title>Home - Chamber Directory Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&family=Winky+Rough&family=Comfortaa&family=Lexend&family=Urbanist&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/chamber-icon.ico">
+    <link rel="stylesheet" href="styles/directory.css">
+    <link rel="stylesheet" href="styles/directory-small.css">
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/businesses.js" defer></script>
+    <script src="scripts/view-toggle.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <img src="images/logo.png" alt="Chamber of Commerce Logo">
+            <span>Mdantsane Chamber of Commerce</span> 
+            <button id="ham-btn" class="hamburger"></button>
+        </div>
+
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Home</h1>
+        <section class="events-container">
+
+            <div class="events">
+                <h2 class="home-headers">Events</h2>
+            </div>
+
+            <div class="current-weather-container">
+                <h2 class="home-headers">Current Weather</h2>
+                <div class="current-weather">
+                    <img src="images/weather-icon.png" alt="Weather Icon">
+                    <div class="weather">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="weather-forecast">
+                <h2 class="home-headers">Weather Forecast</h2>
+                <p>Today: </p>
+                <p>Wednesday: </p>
+                <p>Thursday: </p>
+            </div>
+        </section>
+
+        <div class="view-toggle">
+            <button id="gridView">Grid View</button>
+            <button id="listView">List View</button>
+        </div>
+
+        <section id="businessCards" class="grid-view">
+            <!-- Business cards load here -->
+        </section>
+    </main>
+    
+
+
+    <footer>
+        <div class="footer-content">
+
+            <div class="address">
+                <p><strong>Mdantsane Chamber of Commerce</strong></p>
+                <p>1042 NU14</p>
+                <p>Mdantsane, East London</p>
+                <p>info@mdacoc.org</p>
+                <p>081 421 6444</p>
+            </div>
+
+            <div class="social-icons-container">
+                <ul class="social-icons">
+                    <li><a href="#"><img src="images/facebook-icon.png" alt="Facebok Icon"></a></li>
+
+                    <li><a href="https://www.linkedin.com/in/lisakhanya-masiza-10lm10/" target="_blank" rel="noopener noreferrer">
+                        <img src="images/linkedin-icon.png" alt="LinkedIn Icon">
+                    </a></li>
+
+                    <li><a href="https://github.com/MLisa95" target="_blank" rel="noopener noreferrer">
+                        <img src="images/github-icon.png" alt="Github Icon">
+                    </a></li>
+                </ul>
+            </div>
+
+            <div class="last-modification">
+                <p>WDD231 Class Project</p>
+                <p>Lisakhanya Gasa</p>
+                <p>© 2025 Mdantsane Chamber of Commerce</p>
+                <p id="lastModified"></p>
+            </div>
+
+        </div>
+    
+    </footer>
+</body>
+</html>
