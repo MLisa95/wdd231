@@ -284,6 +284,7 @@ h1 {
 
 footer {
     padding-bottom: 1rem;
+    font-family: var(--font-body);
 }
 
 /******* NO HAMBURGER ON LARGE SCREENS *******/
