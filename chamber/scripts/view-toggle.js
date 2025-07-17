@@ -1,13 +1,13 @@
-const container = document.querySelector("#businessCards");
-const gridButton = document.querySelector("#gridView");
-const listButton = document.querySelector("#listView");
+const gridBtn = document.querySelector("#gridView");
+const listBtn = document.querySelector("#listView");
+const cards = document.querySelector("#businessCards");
 
-gridButton.addEventListener("click", () => {
-    container.classList.add("grid-view");
-    container.classList.remove("list-view");
+gridBtn.addEventListener("click", () => {
+  cards.classList.add("grid-view");
+  cards.classList.remove("list-view");
 });
 
-listButton.addEventListener("click", () => {
-    container.classList.add("list-view");
-    container.classList.remove("grid-view");
+listBtn.addEventListener("click", () => {
+  cards.classList.add("list-view");
+  cards.classList.remove("grid-view");
 });

@@ -57,6 +57,13 @@ ul {
     color: black;
 }
 
+/** way finding **/
+
+.nav-bar a.active {
+    text-decoration: underline;
+    color: blue;
+}
+
 /********** EVENTS SECTION **********/
 
 h1 {
@@ -125,6 +132,7 @@ h1 {
     border-bottom: solid 1px black;
     padding-bottom: 0.4rem;
     text-align: center;
+    /* width: 300px; */
 }
 
 .card-header h3 {
@@ -172,6 +180,28 @@ h1 {
 #businessCards.list-view {
     display: flex;
     flex-direction: column;
+
+    .card-header {
+        width: 250px;
+        margin-right: 20px;
+    }
+
+    .card-body img {
+        /* padding: 0 1rem; */
+        width: 70px;
+        height: auto;
+        object-fit: fit;
+    }
+
+    .card-details {
+        display: flex;
+        gap: 1rem;
+        margin-left: 20px;
+
+        p {
+            min-width: 250px;
+        }
+    }
 }
 
 /* Card appearance in list view */
@@ -186,6 +216,10 @@ h1 {
 #businessCards.grid-view .business-card {
     width: 250px;
     flex-direction: column;
+}
+
+#businessCards.list-view .business-card:nth-child(odd) {
+  background-color: #d6e2ec;
 }
 
 .view-toggle {
