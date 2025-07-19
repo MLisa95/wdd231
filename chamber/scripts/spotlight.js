@@ -49,7 +49,11 @@ async function getMembers() {
             <h3>${member.name}</h3>
             <div class="logo-and-badge">
                 <img class="biz-logo" src="${member.logo}" alt="${member.name}" logo">
-                <img src=${badge}>
+                <div class="spotlight-details">
+                    <p class="status"><strong>Status:</strong> <img src=${badge} class="badge"></p>
+                    <p>${member.phone}</p>
+                    <p>${member.email}</p>
+                </div>
             </div>
             `;
 
