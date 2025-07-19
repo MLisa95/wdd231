@@ -1,0 +1,155 @@
+:root {
+    /**** FONTS ****/
+    --font-header: 'Urbanist', sans-serif;
+    --font-headings: 'Outfit', sans-serif;
+    --font-title: 'Lexend', sans-serif;
+    --font-body: 'Comfortaa', sans-serif;
+    --font-tagline: 'Caveat', sans-serif;
+
+    /***** COLORS *****/
+    --color-headings: rgb(124, 192, 255);
+    --color-buttons:  rgb(59, 117, 172);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+
+/***** HERO SECTION *****/
+
+.hero-container {
+    margin-top: 1rem;
+}
+
+.hero-image {
+    position: relative;
+    overflow: hidden;
+    height: 85vh;
+    width: 100%;
+}
+
+.hero-box {
+    position: absolute;
+    right: 70px;
+    bottom: 70px;
+    background-color: var(--color-headings);
+    border: 1px solid var(--color-buttons);
+    border-radius: 6px;
+    padding: 0.5rem;
+}
+
+.hero-container h1 {
+    font-size: medium;
+}
+
+.call-to-action {
+    align-items: center;
+    border: none;
+    background-color: aliceblue;
+    padding: 0.2rem;
+    border-radius: 4px;
+    color: black;
+    font-family: var(--font-headings);
+    font-size: 1rem;
+}
+
+.call-to-action:hover {
+    box-shadow: inset 2px 2px 2px rgb(97, 94, 94, 0.7);
+    font-size: 0.98rem;
+}
+
+/****** EVENTS & WEATHER SECTION *******/
+.events-container {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-evenly;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-family: sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.current-weather img {
+    width: 60px;
+    height: auto;
+}
+
+.home-headers {
+    background-color: var(--color-headings);
+    padding: 0.5rem;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 0.5rem;
+    font-family: var(--font-headings);
+    font-size :medium;
+}
+
+.events {
+    flex: 2;
+    
+}
+
+.current-weather-container,
+.weather-forecast {
+    flex: 1;
+}
+
+.events,
+.current-weather-container,
+.weather-forecast {
+    background-color: rgb(196, 207, 211);
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgb(97, 94, 94, 0.7);
+} 
+
+.weather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather-digit {
+    font-size: 60px;
+}
+
+.weather p {
+    margin: 0.7rem;
+}
+
+/********* 3 DAY FORECAST ***********/
+.forecast-details {
+    display: flex;
+    align-items: flex-end;
+    margin: 2rem;
+    border-bottom: 1px solid rgb(158, 157, 157);
+    justify-content: center;
+}
+
+.day {
+    font-weight: bold;
+    width: 8rem;
+    font-size: 1.5rem;
+}
+
+.max-temp {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.min-temp {
+    font-size: 1rem;
+}
+
+.forecast-icon {
+    font-size: 1.5rem;
+    width: 1rem;
+    margin-right: 2rem;
+}
+
+/* spotlight section = events */

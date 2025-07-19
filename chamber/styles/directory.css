@@ -95,26 +95,6 @@ h1 {
 }
 
 
-
-.events {
-    flex: 2;
-    
-}
-
-.current-weather-container,
-.weather-forecast {
-    flex: 1;
-}
-
-.events,
-.current-weather-container,
-.weather-forecast {
-    background-color: rgb(196, 207, 211);
-    height: 300px;
-    border-radius: 5px;
-    box-shadow: 2px 2px 3px rgb(97, 94, 94, 0.7);
-} 
-
 /********** BUSINESS CARDS **********/
 
 #businessCards {
