@@ -1,0 +1,141 @@
+:root {
+    --background-color: #E9D3D0;
+    --accent-color: #7F7CAF;
+    --accent-darker: #3C6767;
+    --buttons-color: #16001E;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    gap: 1.5rem;
+    padding: 0.5rem;
+    align-items: center;
+    background-color: var(--accent-color);
+    color: white;
+    justify-content: space-between;
+    border-bottom: solid 2px var(--buttons-color);
+}
+
+.logo {
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+    padding: 0.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+}
+
+nav a:hover {
+    background-color: aqua;
+    border-radius: 5px;
+    box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+header img {
+    width: 50px;
+    height: auto;
+}
+
+/* ABOUT ME SECTION */
+
+.about-me-container {
+    display: flex;
+    gap: 2rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.my-photo {
+    text-align: center;
+}
+
+.my-photo img {
+    width: 70%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+
+h3 {
+    background-color: var(--accent-color);
+    padding: 0.5rem;
+    color: white;
+}
+
+p {
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+h2 {
+    padding: 0.5rem;
+}
+
+.about-me, .my-photo {
+    background-color: var(--background-color);
+    border-radius: 0 0 5px 5px;
+}
+
+/* SOCIAL TAGS */
+.social-tags {
+    display: flex;
+    justify-content: center;
+}
+
+.social-tags img {
+    height: 90px;
+    width: auto;
+    padding: 1rem;
+}
+
+.current-year {
+    text-align: center;
+}
+
+#lastModified {
+    text-align: center;
+}
+
+/* COURSE CARDS */
+
+.course-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.course-buttons button {
+    padding: 1rem;
+    background-color: #7F7CAF;
+}
+
+#coursesContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1.5rem;
+    margin: 1rem;
+}
+
+.course-card {
+    background-color: var(--accent-darker);
+    gap: 1rem;
+    border-radius: 8px;
+}

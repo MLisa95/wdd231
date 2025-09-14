@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Lisakhanya Gasa">
+    <meta description="Landing page introducing myself">
+    <title>Lisakhanya Gasa Homepage</title>
+    <link rel="stylesheet" href="styles/home.css">
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+</head>
+<body>
+        <header>
+            <div class="logo">
+                <img src="images/business_logo.png" alt="Business Logo">
+                <h1>Lisakhanya</h1>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="courses.html">Chamber</a></li>
+                    <li><a href="form.html">Final</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h2>Home</h2>
+
+            <section class="about-me-container">
+                <div class="about-me">
+                    <h3>About Me</h3>
+                    <p>My name is Lisakhanya Masiza (maiden surname Gasa), and I'm from 
+                        South Africa. I live in the 2nd biggest township, Mdantsane, which 
+                        is beautifully built on hills and streams. I love art in almost 
+                        any form it comes in, be it painting, music or sandart. I went 
+                        into programming because I wish to program children's apps to help 
+                        them learn while they play.</p>
+                </div>
+
+                <div class="my-photo">
+                    <h3>Student Photo</h3>
+                    <img src="images/my-photo.jpg" alt="Lisakhanya's Photo">
+                </div>
+            </section>
+
+            <!-- buttons for course filter -->
+            <section class="course-buttons">
+                <button id="allButton">All Courses</button>
+                <button id="cseButton">CSE</button>
+                <button id="wddButton">WDD</button>
+            </section>
+
+            <!-- container for courses -->
+             <div id="coursesContainer"></div>
+
+             <!-- total credits -->
+              <p class="credits">Total Credits: <span id="totalCredits">0</span></p>
+
+        </main>
+
+        <footer>
+            <div class="social-tags">
+                <a href="https://www.facebook.com/profile.php?id=61580012336059" target="_blank" rel="noopener noreferrer">
+                    <img src="images/icon-facebook.png" alt="Facebook">
+                </a>
+
+                <a href="https://www.linkedin.com/in/lisakhanya-masiza-10lm10/" target="_blank" rel="noopener noreferrer">
+                    <img src="images/icon-linkedin.png" alt="LinkedIn">
+                </a>
+
+                <a href="https://github.com/MLisa95" target="_blank" rel="noopener noreferrer">
+                    <img src="images/icon-github.png" alt="GitHub">
+                </a>
+            </div>
+
+            <p class="current-year">
+                © <span id="currentyear"></span>  Lisakhanya Masiza | South Africa
+            </p>
+
+            <!-- last modified -->
+             <p id="lastModified">
+
+             </p>
+
+        </footer>
+        
+    
+</body>
+</html>
