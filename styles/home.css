@@ -93,6 +93,10 @@ h2 {
     border-radius: 0 0 5px 5px;
 }
 
+.about-me p {
+    font-size: 1.5rem;
+}
+
 /* SOCIAL TAGS */
 .social-tags {
     display: flex;
@@ -125,9 +129,14 @@ h2 {
 .course-buttons button {
     padding: 1rem;
     background-color: #7F7CAF;
+    margin: 1rem;
+    border-radius: 6px;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
 }
 
-#coursesContainer {
+#courses {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: 1.5rem;
@@ -135,7 +144,12 @@ h2 {
 }
 
 .course-card {
-    background-color: var(--accent-darker);
+    background-color: var(--background-color);
     gap: 1rem;
     border-radius: 8px;
+}
+
+#total-credits {
+    text-align: center;
+    margin: 0.5rem;
 }

@@ -46,36 +46,39 @@
                 </div>
             </section>
 
-            <!-- buttons for course filter -->
+            <!-- WEB CERTIFICATE COURSES -->
             <section class="course-buttons">
-                <button id="allButton">All Courses</button>
-                <button id="cseButton">CSE</button>
-                <button id="wddButton">WDD</button>
+
+                <button id="all" class="all-btn">ALL</button>
+
+                <button id="cse" class="cse-btn">CSE</button>
+
+                <button id="wdd" class="wdd-btn">WDD</button>
+
             </section>
 
-            <!-- container for courses -->
-             <div id="coursesContainer"></div>
-
-             <!-- total credits -->
-              <p class="credits">Total Credits: <span id="totalCredits">0</span></p>
+            <section id="courses" class="course-list"></section>
+            <p id="total-credits"></p>
 
         </main>
 
-        <footer>
-            <div class="social-tags">
-                <a href="https://www.facebook.com/profile.php?id=61580012336059" target="_blank" rel="noopener noreferrer">
+        <section>
+            <ul class="social-tags">
+                <li><a href="https://www.facebook.com/profile.php?id=61580012336059" target="_blank" rel="noopener noreferrer">
                     <img src="images/icon-facebook.png" alt="Facebook">
-                </a>
+                </a></li>
 
-                <a href="https://www.linkedin.com/in/lisakhanya-masiza-10lm10/" target="_blank" rel="noopener noreferrer">
+                <li><a href="https://www.linkedin.com/in/lisakhanya-masiza-10lm10/" target="_blank" rel="noopener noreferrer">
                     <img src="images/icon-linkedin.png" alt="LinkedIn">
-                </a>
+                </a></li>
 
-                <a href="https://github.com/MLisa95" target="_blank" rel="noopener noreferrer">
+                <li><a href="https://github.com/MLisa95" target="_blank" rel="noopener noreferrer">
                     <img src="images/icon-github.png" alt="GitHub">
-                </a>
-            </div>
+                </a></li>
+            </ul>
+        </section>
 
+        <footer>
             <p class="current-year">
                 © <span id="currentyear"></span>  Lisakhanya Masiza | South Africa
             </p>
@@ -86,7 +89,5 @@
              </p>
 
         </footer>
-        
-    
 </body>
 </html>
