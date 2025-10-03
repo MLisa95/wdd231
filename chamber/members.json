@@ -1,0 +1,84 @@
+[
+    {
+        "name": "ByteNest",
+        "tagline": "Ideas Take Digital Flight.",
+        "email": "bytenest@byte.org",
+        "phone": "087-456-8891",
+        "url": "https://bytenest.com",
+        "logo": "images/business1.png",
+        "membership": "bronze"
+    },
+    {
+        "name": "NeuraForge",
+        "tagline": "Crafting Tomorrow's Intelligence.",
+        "email": "info@neura.org",
+        "phone": "087-456-8891",
+        "url": "https://neuraforge.com",
+        "logo": "images/business2.png",
+        "membership": "bronze"
+    },
+    {
+        "name": "Quantum Willow",
+        "tagline": "Natural Heights",
+        "email": "quantum@willow.org",
+        "phone": "087-456-8891",
+        "url": "https://quantumwillow.com",
+        "logo": "images/business3.png",
+        "membership": "gold"
+    },
+    {
+        "name": "Code Harbor",
+        "tagline": "Dock Here. Build Anything.",
+        "email": "bytenest@byte.org",
+        "phone": "087-456-8891",
+        "url": "https://bytenest.com",
+        "logo": "images/business4.png",
+        "membership": "silver"
+    },
+    {
+        "name": "Thread Cove",
+        "tagline": "Wrap Yourself in Wonder",
+        "email": "threadcove@info.org",
+        "phone": "087-456-8891",
+        "url": "https://threadcove.com",
+        "logo": "images/business5.png",
+        "membership": "bronze"
+    },
+    {
+        "name": "SpiceFig",
+        "tagline": "Bites That Make You Dance",
+        "email": "info@spicefig.org",
+        "phone": "087-456-8891",
+        "url": "https://spicefig.com",
+        "logo": "images/business6.png",
+        "membership": "gold"
+    },
+    {
+        "name": "SoulMoss Spa",
+        "tagline": "Find Your Still.",
+        "email": "spa@soulmoss.org",
+        "phone": "087-456-8891",
+        "url": "https://soulmoss-spa.com",
+        "logo": "images/business7.png",
+        "membership": "gold"
+    },
+    {
+        "name": "Tech Bros",
+        "tagline": "Innovating Tomorrow.",
+        "email": "tech@yourbros.org",
+        "phone": "012 345 6789",
+        "url": "https://techbros.co.za",
+        "logo": "images/logo9.png",
+        "membership": "silver"
+    },
+    {
+        "name": "Budget Prints",
+        "tagline": "We Print Your Heart.",
+        "email": "budgetprints@bp.org",
+        "phone": "021 123 4567",
+        "url": "https://budgetprints.com",
+        "logo": "images/logo8.png",
+        "membership": "bronze"
+    }
+
+]

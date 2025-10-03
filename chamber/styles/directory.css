@@ -1,0 +1,324 @@
+:root {
+    /**** FONTS ****/
+    --font-header: 'Urbanist', sans-serif;
+    --font-headings: 'Outfit', sans-serif;
+    --font-title: 'Lexend', sans-serif;
+    --font-body: 'Comfortaa', sans-serif;
+    --font-tagline: 'Caveat', sans-serif;
+
+    /**** COLORS ****/
+    --background-color: #E9D3D0;
+    --accent-color: #7F7CAF;
+    --accent-darker: #3C6767;
+    --buttons-color: #16001E;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/********** HEADER ***********/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(196, 207, 211);
+    align-items: center;
+    padding: 10px 10px;
+    border-bottom: solid 0.5px black;
+}
+
+span {
+    font-family: var(--font-headings);
+    font-weight: bold;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo img {
+    width: 60px;
+    height: auto;
+}
+
+ul {
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.nav-bar ul a {
+    font-family: var(--font-headings);
+    color: black;
+}
+
+/** way finding **/
+
+.nav-bar a.active {
+    text-decoration: underline;
+    color: blue;
+}
+
+/********** EVENTS SECTION **********/
+
+h1 {
+    font-family: var(--font-headings);
+    padding: 10px 0;
+}
+
+.events-container {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-evenly;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-family: sans-serif;
+}
+
+.events, .current-weather-container,
+.weather-forecast {
+    background-color: var(--background-color);
+    width: 30%;
+    margin: 8px;
+    border-radius: 6px;
+    padding: 2px;
+}
+
+.current-weather img {
+    width: 60px;
+    height: auto;
+}
+
+.home-headers {
+    padding: 0.5rem;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 0.5rem;
+    font-family: var(--font-headings);
+    font-size :medium;
+    background-color: var(--accent-color);
+}
+
+/* spotlight section */
+.logo-and-badge {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.logo-and-badge img {
+    width: 2rem;
+    height: auto;
+}
+
+/********** BUSINESS CARDS **********/
+
+#businessCards {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    flex-wrap: wrap;
+    /* margin-top: 0.5rem; */
+    margin-bottom: 1.5rem;
+    font-family: sans-serif;
+    padding-top: 1.5rem;
+}
+
+.card-header {
+    border-bottom: solid 1px black;
+    padding-bottom: 0.4rem;
+    text-align: center;
+    /* width: 300px; */
+}
+
+.card-header h3 {
+    font: var(--font-headings);
+    font-weight: bold;
+}
+
+.tagline {
+    font-family: var(--font-tagline);
+    font-size: 1.2rem;
+}
+
+.business-card {
+    background-color: rgb(196, 207, 211);
+    border-radius: 5px;
+    padding: 0.7rem 0.5rem;
+    box-shadow: 2px 2px 3px rgb(97, 94, 94, 0.7);
+}
+
+.card-body {
+    display: flex;
+    gap: 0.5rem;
+    margin: 0.3rem;
+}
+
+.card-body img {
+    width: 40px;
+    height: auto;
+    object-fit: contain;
+}
+
+.card-details {
+    font: var(--font-title);
+}
+
+/********** GRID - LIST **********/
+
+/* Container toggle states */
+#businessCards.grid-view {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#businessCards.list-view {
+    display: flex;
+    flex-direction: column;
+
+    .card-header {
+        width: 250px;
+        margin-right: 20px;
+    }
+
+    .card-body img {
+        /* padding: 0 1rem; */
+        width: 70px;
+        height: auto;
+        object-fit: fit;
+    }
+
+    .card-details {
+        display: flex;
+        gap: 1rem;
+        margin-left: 20px;
+
+        p {
+            min-width: 250px;
+        }
+    }
+}
+
+/* Card appearance in list view */
+#businessCards.list-view .business-card {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+
+/* In grid view (default), cards stay as blocks */
+#businessCards.grid-view .business-card {
+    width: 250px;
+    flex-direction: column;
+}
+
+#businessCards.list-view .business-card:nth-child(odd) {
+  background-color: #d6e2ec;
+}
+
+.view-toggle {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    /* background-color: grey; */
+    height: 30px;
+    gap: 5px;
+}
+
+.view-toggle button {
+    border: none;
+    padding: 4px;
+    border-radius: 5px;
+    font-family: var(--font-title);
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.view-toggle button:hover {
+    color: white;
+    box-shadow: inset 2px 2px 3px rgb(97, 94, 94, 0.7);
+}
+
+#listView {
+    background: linear-gradient(to bottom right, lightgrey, rgb(141, 132, 132));
+}
+
+#gridView {
+    background: linear-gradient(to top left, lightgrey, rgb(141, 132, 132));
+}
+
+
+/********** FOOTER ***********/
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%; 
+    justify-content: space-evenly;
+    gap: 50px;
+    border-top: solid 0.5px black;
+    padding-top: 10px;
+}
+
+.social-icons-container {
+    display: flex;
+}
+
+.social-icons img {
+    width: 40px;          
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons {
+    display: flex;
+}
+
+footer {
+    padding-bottom: 1rem;
+    font-family: var(--font-body);
+}
+
+/******* NO HAMBURGER ON LARGE SCREENS *******/
+
+.hamburger {
+    background: none;
+    border: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 2rem;
+    display: none; /* hide by default */
+}
+
+/* HERO SECTION */
+.hero-image {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-box {
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+    background-color: var(--accent-color);
+    padding: 4px;
+    border-radius: 6px;
+    color: white;
+}
