@@ -16,10 +16,9 @@ document.addEventListener("DOMContentLoaded", () => {
             });
         });
 
-    // Close modal
-    closeButton.addEventListener("click", () => modal.style.display = "none");
-    window.addEventListener("click", (e) => {
-        if (e.target === modal) modal.style.display = "none";
+    // close modal
+    closeButton.addEventListener("click", () => {
+        modal.style.display = "none";
     });
 
 });

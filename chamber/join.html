@@ -36,136 +36,133 @@
         </nav>
     </header>
 
-    <main>
-        <h2>Join Our Chamber</h2>
+    <main class="form-container">
+        
 
-        <form id="joinForm" method="get" action="thankyou.html">
+            <form id="joinForm" method="get" action="thankyou.html">
+                <h2>Join Our Chamber</h2>
 
-            <fieldset>
-                <legend>Personal Information</legend>
+                <fieldset>
+                    <legend>Personal Information</legend>
 
-                <label for="firstName">First Name:
-                    <input type="text"
-                    id="firstName"
-                    name="firstName"
-                    required
-                    title="Enter your first name"
-                    autocomplete="given-name">
-                </label>
+                    <label for="firstName">First Name:
+                        <input type="text"
+                        id="firstName"
+                        name="firstName"
+                        required
+                        title="Enter your first name"
+                        autocomplete="given-name">
+                    </label>
 
-                <label for="lastName">Last Name:
-                    <input type="text"
-                    id="lastName"
-                    name="lastName"
-                    required
-                    title="Enter your last name"
-                    autocomplete="family-name">
-                </label>
+                    <label for="lastName">Last Name:
+                        <input type="text"
+                        id="lastName"
+                        name="lastName"
+                        required
+                        title="Enter your last name"
+                        autocomplete="family-name">
+                    </label>
 
-                <label for="email">Email:
-                    <input type="email"
-                    id="email"
-                    name="email"
-                    required
-                    title="Enter your email address"
-                    autocomplete="email"
-                    placeholder="email@someone.co.za">
-                </label>
+                    <label for="email">Email:
+                        <input type="email"
+                        id="email"
+                        name="email"
+                        required
+                        title="Enter your email address"
+                        autocomplete="email"
+                        placeholder="email@someone.co.za">
+                    </label>
 
-                <label for="phone">Phone Number:
-                    <input type="tel"
-                    id="phone"
-                    name="phone"
-                    required
-                    title="Enter your phone number"
-                    autocomplete="tel">
-                </label>
-            </fieldset>
-                
-            <fieldset>
-                <legend>Membership Information</legend>
-
-                <label for="organization">Organization Name:
-                     <input type="text"
-                     id="organization"
-                     required
-                     name="organization"
-                     title="Enter your organization's name"
-                     autocomplete="organization">
-                </label>
-
-                <label for="orgTitle">
-                    Organizational Title:
-                    <input type="text"
-                    id="orgTitle"
-                    name="orgTitle"
-                    title="Enter your title in the organization"
-                    pattern="[A-Za-z\s-]{7,}"
-                    autocomplete="organization-title">
-                </label>
-
-                <div id="membership-cards">
-                    <h4>Select a Membership Level</h4>
-                    <div class="cards">
-
-                        <!-- NP = non-profit card -->
-                        <label class="card" data-title="NP Membership" data-description="Free Membership for non-profit organizations">
-                            <h5>NP Mmembership</h5>
-                            <p>Free membership for non profit organizations</p>
-                            <input type="radio" name="membership" value="NP" required>
-                        </label>
-
-                        <!-- Bronze card -->
-                         <label class="card" data-title="Bronze Membership" data-description="Membership for organizations with advert benefits.">
-                            <h5>Bronze</h5>
-                            <p>R550/year. Free adverts.</p>
-                            <input type="radio" name="membership" value="bronze" required>
-                        </label>
-
-                        <!-- Silver card -->
-                        <label class="card" data-title="Silver Membership" data-description="Membership for organizations with advert  and training benefits.">
-                            <h5>Silver</h5>
-                            <p>R1300/year. Free adverts and training.</p>
-                            <input type="radio" name="membership" value="silver" required>
-                        </label>
-
-                        <!-- Gold card -->
-                         <label class="card" data-title="Gold Membership" data-description="Membership for organizations with advert, training and networking benefits.">
-                            <h5>Gold</h5>
-                            <p>R2500/year. Free adverts, training and special events.</p>
-                            <input type="radio" name="membership" value="gold" required>
-                        </label>
-                    </div>
+                    <label for="phone">Phone Number:
+                        <input type="tel"
+                        id="phone"
+                        name="phone"
+                        required
+                        title="Enter your phone number"
+                        autocomplete="tel">
+                    </label>
+                </fieldset>
                     
-                </div>
+                <fieldset>
+                    <legend>Membership Information</legend>
 
-                <!-- modal placeholder for JS-->
-                <div id="membershipModal" class="modal">
-                    <div class="modal-info">
-                        <button class="close-button">✖️</button>
-                        <h3 id="modalTitle"></h3>
-                        <p id="modalDescription"></p>
+                    <label for="organization">Organization Name:
+                        <input type="text"
+                        id="organization"
+                        required
+                        name="organization"
+                        title="Enter your organization's name"
+                        autocomplete="organization">
+                    </label>
+
+                    <label for="orgTitle">
+                        Organizational Title:
+                        <input type="text"
+                        id="orgTitle"
+                        name="orgTitle"
+                        title="Enter your title in the organization"
+                        pattern="[A-Za-z\s-]{7,}"
+                        autocomplete="organization-title">
+                    </label>
+
+                    <div id="membership-cards">
+                        <h4>Select a Membership Level</h4>
+                        <div class="cards">
+
+                            <!-- NP = non-profit card -->
+                            <label class="card" data-title="NP Membership" data-description="Free Membership for non-profit organizations">
+                                <h5>NP Mmembership</h5>
+                                <p>Free membership for non profit organizations</p>
+                                <input type="radio" name="membership" value="NP" required>
+                            </label>
+
+                            <!-- Bronze card -->
+                            <label class="card" data-title="Bronze Membership" data-description="Membership for organizations with advert benefits.">
+                                <h5>Bronze</h5>
+                                <p>R550/year. Free adverts.</p>
+                                <input type="radio" name="membership" value="bronze" required>
+                            </label>
+
+                            <!-- Silver card -->
+                            <label class="card" data-title="Silver Membership" data-description="Membership for organizations with advert  and training benefits.">
+                                <h5>Silver</h5>
+                                <p>R1300/year. Free adverts and training.</p>
+                                <input type="radio" name="membership" value="silver" required>
+                            </label>
+
+                            <!-- Gold card -->
+                            <label class="card" data-title="Gold Membership" data-description="Membership for organizations with advert, training and networking benefits.">
+                                <h5>Gold</h5>
+                                <p>R2500/year. Free adverts, training and special events.</p>
+                                <input type="radio" name="membership" value="gold" required>
+                            </label>
+                        </div>
+                        
                     </div>
+
+                    <label for="orgDescription">Organization Description:
+                        <textarea id="orgDescription"
+                        name="orgDescription"
+                        title="Describe your organization"></textarea>
+                    </label>
+
+
+
+                    <input type="hidden" id="timestamp" name="timestamp" value="">
+
+                    <button type="submit">Apply for Membership</button>
+
+                </fieldset>
+                
+            </form>
+
+            <div id="membershipModal" class="modal">
+                <div class="modal-info">
+                    <button class="close-button">✖️</button>
+                    <h3 id="modalTitle"></h3>
+                    <p id="modalDescription"></p>
                 </div>
-
-                <label for="orgDescription">Organization Description:
-                    <textarea id="orgDescription"
-                    name="orgDescription"
-                    title="Describe your organization"></textarea>
-                </label>
-
-
-
-                <input type="hidden" id="timestamp" name="timestamp" value="">
-
-                <button type="submit">Apply for Membership</button>
-
-            </fieldset>
-
-
-            
-        </form>
-
+            </div>
     </main>
 
     <footer>
