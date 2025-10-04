@@ -30,6 +30,7 @@ label {
 input, textarea {
     width: 50%;
     margin-bottom: 5px;
+    height: 2rem;
 }
 
 .membership-cards h4 {
