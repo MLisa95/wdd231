@@ -80,6 +80,8 @@ const courses = [
     }
 ]
 
+
+
 const courseSection  = document.querySelector("#courses");
 
 function renderCourses(courseArray) {

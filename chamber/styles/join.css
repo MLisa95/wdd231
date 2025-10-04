@@ -1,0 +1,77 @@
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Outfit', sans-serif;
+    padding: 2rem;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 1rem;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+label {
+    display: grid;
+    /* gap: ; */
+}
+
+input, textarea {
+    width: 50%;
+    margin-bottom: 5px;
+}
+
+.membership-cards h4 {
+    padding-top: 1rem;
+}
+
+button {
+    width: 50%;
+    margin-top: 1rem;
+}
+
+/* membership cards */
+#membership-cards {
+    margin-top: 5px;
+}
+
+.cards {
+    display: flex;
+    padding: 0.5rem;
+    gap: 5px;
+}
+
+.card {
+    flex: 1 1 200px;
+    cursor: pointer;
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.card input[type="radio"] {
+    display: block;
+    margin: 1rem auto 0 auto;
+    align-self: center;
+}
+
+/* modal styling */
+
+.modal {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: -400px;
+  width: 350px;
+  height: 100%;
+}
+
+.modal.show {
+    right: 0;
+}
