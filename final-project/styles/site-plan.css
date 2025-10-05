@@ -1,0 +1,17 @@
+body {
+    margin: 2rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.typography .heading {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.typography .body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+    text-decoration: underline;
+    font-family: 'Bebas Neue', sans-serif;
+}
