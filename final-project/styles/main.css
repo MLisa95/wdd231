@@ -1,0 +1,80 @@
+:root {
+    /* brand colors */
+    --primary-color: #0d0d5e;
+    --accent-color: #b6a22f;
+    --primary-light: #8989bd;
+    --accent-darker: #363009;
+
+    /* fonts */
+    --font-headings: 'Bebas Neue', sans-serif;
+    --font-body: 'Raleway', sans-serif;
+
+    /* layout & styling */
+    --radius: 6px;
+
+    /* transitions -- consistency */
+    --transition: all 0.3s ease-in-out;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--font-headings);
+}
+
+.logo img {
+    height: 4rem;
+    width: auto;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+}
+
+.logo {
+    display: flex;
+    gap: 1rem;
+}
+
+.logo h1 {
+    color: white;
+}
+
+.nav-menu ul {
+    display: flex;
+    gap: 1rem;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    padding: 1rem;
+    font-size: larger;
+}
+
+/* HERO STYLING */
+
+.call-to-action {
+    position: absolute;
+    bottom: 3rem;
+    right: 3rem;
+    background: var(--accent-color);
+    padding: 1rem;
+    border: var(--primary-color);
+    border-radius: var(--radius);
+    font-family: var(--font-headings);
+}
+
+.hero-container img {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    padding: 1rem;
+}
+

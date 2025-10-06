@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "title": "Sisa Dukashe Stadium",
+        "address": "Sisa Dukashe Stadium, Mdantsane, Eastern Cape, 5201",
+        "description": "A multi-purpose stadium famous for soccer, rugby, and boxing events. Home to numerous national and international boxing champions.",
+        "image": "images/sisa_dukashe.webp"
+    },
+    {
+        "id": 2,
+        "title": "Cecilia Makiwane Hospital",
+        "address": "Cecilia Makiwane Hospital, Buffalo Road, Mdantsane, Eastern Cape, 5201",
+        "description": "Major district hospital providing healthcare services to Mdantsane and surrounding communities. Named after South Africa's first Black professional nurse.",
+        "image": "images/cecilia_makiwane.webp"
+    },
+    {
+        "id": 3,
+        "title": "Egerton Railway Station Massacre Memorial",
+        "address": "Egerton Station, Mdantsane, Eastern Cape, 5201",
+        "description": "A memorial site honoring the victims of the 1983 bus boycott massacre, an important historical landmark in Mdantsane.",
+        "image": "images/egerton_railway.webp"
+    },
+    {
+        "id": 4,
+        "title": "Mdantsane City Mall",
+        "address": "Mdantsane City Mall, King William's Town Road, Mdantsane, Eastern Cape, 5201",
+        "description": "A central shopping mall with retail stores, restaurants, and services, serving as a hub for the local community.",
+        "image": "images/mdantsane_mall.webp"
+    },
+    {
+        "id": 5,
+        "title": "Mdantsane Library",
+        "address": "Nu 14 Mdantsane-N, Mdantsane, 6013",
+        "description": "Located in the heart of the township, offers a range of services including internet access, book lending, and educational programs.",
+        "image": "images/mdantsane_library.webp"
+    },
+    {
+        "id": 6,
+        "title": "Duncan Village Massacre Statue",
+        "address": "Duncan Village Memorial, Mdantsane, Eastern Cape, 5201",
+        "description": "A poignant statue commemorating those who lost their lives during the 1985 Duncan Village massacre. A place for reflection and remembrance.",
+        "image": "images/duncan_village.webp"
+    },
+    {
+        "id": 7,
+        "title": "Indoor Sports Center",
+        "address": "Dunga Road, Mdantsane, 5219",
+        "description": "The Mdantsane Indoor Sports Centre provides modern sporting facilities to the community.",
+        "image": "images/indoor_center.webp"
+    },
+    {
+        "id": 8,
+        "title": "Mdantsane Correctional Centre (Fort Jackson Prison)",
+        "address": "NU 13 Golden Highway St, Fort Jackson, Mdantsane",
+        "description": "The Mdantsane Correctional Centre, commonly known as Fort Jackson Prison, is a correctional facility located in Mdantsane. It houses both juvenile and adult offenders and plays a role in the region's criminal justice system.",
+        "image": "images/mdantsane_prison.webp"
+    }
+]

@@ -1,0 +1,37 @@
+@media (min-width: 641px) and (max-width: 1024px) {
+    .discover-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+
+    .card {
+        display: grid;
+        grid-template-columns: 40%;
+        grid-template-areas: 
+            "image title"
+            "image description"
+            "image address"
+            "image button";
+        align-items: start;
+    }
+
+    .card figure {
+        grid-area: image;
+    }
+
+    .card h2 {
+        grid-area: title;
+    }
+
+    .card p {
+        grid-area: description;
+    }
+
+    .card button {
+        grid-area: button;
+    }
+
+    .card address {
+        grid-area: address;
+    }
+}

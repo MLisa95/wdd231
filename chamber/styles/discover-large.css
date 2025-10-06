@@ -1,0 +1,75 @@
+.discover-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.card {
+    background: var(--background-color);
+    border: 2px solid;
+    border-radius: 6px;
+    overflow: hidden;
+    
+    display: grid;
+    grid-template-areas:
+        "image"
+        "title"
+        "address"
+        "description"
+        "button"
+}
+
+.card button {
+    width: 40%;
+    padding-bottom: 1rem;
+    align-items: center;
+    background: none;
+    border: none;
+    color: blue;
+    font-family: var(--font-title );
+}
+
+.card img {
+    height: 200px;
+    width: 300px;
+    padding: 1rem;
+    grid-area: "image";
+    border-radius: 3px;
+}
+
+.card h2 {
+    padding-left: 1rem;
+    padding-top: 1rem;
+    grid-area: "title";
+    font-family: var(--font-header);
+    text-decoration: underline;
+}
+
+.card p {
+    padding: 1rem;
+    font-family: var(--font-body);
+}
+
+.card address {
+    padding: 1rem;
+    font-family: var(--font-tagline);
+    font-size: large;
+}
+
+#visitor-message {
+    font-family: var(--font-header);
+    padding-top: 1rem;
+    padding-left: 1rem;
+    font-size: larger;
+}
+
+.card img {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.card img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
