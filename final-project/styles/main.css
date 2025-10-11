@@ -24,11 +24,16 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 header {
     background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
     font-family: var(--font-headings);
+    align-items: center;
 }
 
 .logo img {
@@ -41,6 +46,7 @@ header {
 .logo {
     display: flex;
     gap: 1rem;
+    align-items: center;
 }
 
 .logo h1 {
@@ -49,12 +55,48 @@ header {
 
 .nav-menu ul {
     display: flex;
-    gap: 1rem;
+    gap: 4rem;
     text-decoration: none;
     list-style: none;
-    color: white;
     padding: 1rem;
     font-size: larger;
+    align-items: center;
+    padding-right: 3rem;
+}
+
+.nav-menu ul a {
+    color: white;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.nav-menu ul a:not(.active):hover {
+    transform: scale(1.2) translateY(-5px); /* scale up then move up on hover */
+
+}
+
+.nav-menu ul a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0;
+    height: 3px;
+    background-color: var(--accent-color); /* your gold accent */
+    transition: width 0.3s ease-in-out;
+}
+
+.nav-menu ul a:hover::after {
+    width: 100%; /* underline expands to full width */
+}
+
+.nav-menu ul a.active {
+    box-shadow: 
+        inset 1px 0 0 0 var(--accent-color),
+        inset 0 -1px 0 0 var(--accent-color);
+    background-color:  #060638;
+    border-radius: var(--radius);
+    padding: 0.5rem;
 }
 
 /* HERO STYLING */
@@ -78,3 +120,61 @@ header {
     padding: 1rem;
 }
 
+/* CHARTS */
+.charts-containers {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 500px;
+    justify-content: space-evenly;
+    margin: 1rem;
+}
+
+.statistics h2 {
+    text-align: left;
+    font-family: var(--font-headings);
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+.charts-containers canvas {
+    width: 300px;   
+    max-width: 45%;
+    height: auto;
+    /* margin: 1rem; */
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: var(--font-body);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: var(--primary-light);
+    border-radius: 6px 6px 0 0;
+    color: var(--primary-color);
+    text-decoration: solid;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.footer-icons img {
+    height: 2rem;
+    height: 2rem;
+    object-fit: contain;
+}
+
+.footer-address,
+.footer-icons,
+.my-details {
+    flex: 1; /* equal space for footer items?? */
+    text-align: center;
+}

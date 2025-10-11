@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Mrs. Zanele Khumalo",
+        "age": 38,
+        "subjects": ["Mathematics", "Natural Sciences"],
+        "grades": ["Grade 4", "Grade 5", "Grade 6", "Grade 7"],
+        "qualifications": "BEd in Intermediate Phase Teaching, University of Pretoria",
+        "description": "Mrs. Khumalo is a passionate educator with over 12 years of experience in STEM education. She loves turning complex math problems into fun challenges for her learners.",
+        "image": "images/staff2.webp"
+    },
+    {
+        "id": 2,
+        "name": "Mr. Thabo Mokoena",
+        "age": 45,
+        "subjects": ["Technology", "EMS", "Social Science"],
+        "grades": ["Grade 4", "Grade 5", "Grade 6", "Grade 7", "Grade 8", "Grade 9"],
+        "qualifications": "BTech in Education and Training, Tshwane University of Technology",
+        "description": "Mr. Mokoena combines practical skills and innovation to inspire learners to think creatively and apply technology to real-world problems.",
+        "image": "images/staff1.webp"
+    },
+    {
+        "id": 3,
+        "name": "Ms. Lerato Dlamini",
+        "age": 29,
+        "subjects": ["English"],
+        "grades": ["Grade 4", "Grade 5", "Grade 6", "Grade 7"],
+        "qualifications": "BA in English and Psychology, University of Johannesburg",
+        "description": "Ms. Dlamini encourages communication and confidence through reading and writing. Her lessons often include storytelling and group activities.",
+        "image": "images/staff4.webp"
+    },
+    {
+        "id": 4,
+        "name": "Mr. Sipho Nkosi",
+        "age": 33,
+        "subjects": ["Mathematics", "Physical Sciences"],
+        "grades": ["Grade 10", "Grade 11", "Grade 12"],
+        "qualifications": "BSc in Physical Sciences, UNISA; PGCE in Mathematics Education",
+        "description": "Mr. Nkosi's classes are known for hands-on experiments and real-life problem solving that help learners grasp scientific principles deeply.",
+        "image": "images/staff3.webp"
+    },
+    {
+        "id": 5,
+        "name": "Mrs. Nomvula Mthembu",
+        "age": 41,
+        "subjects": ["Afrikaans", "Life Sciences", "Math Literacy"],
+        "grades": ["Grade 10", "Grade 11", "Grade 12"],
+        "qualifications": "BA in Languages and Life Sciences, Stellenbosch University",
+        "description": "Mrs. Mthembu brings her expertise in both languages and life sciences to the senior phase, empowering learners to balance analytical and creative thinking.",
+        "image": "images/staff7.webp"
+    },
+    {
+        "id": 6,
+        "name": "Ms. Nandi Mahlangu",
+        "age": 27,
+        "subjects": ["Geography"],
+        "grades": ["Grade 10", "Grade 11", "Grade 12"],
+        "qualifications": "BEd in Natural and Geographical Sciences, University of KwaZulu-Natal",
+        "description": "Ms. Mahlangu inspires curiosity about the natural world and environmental stewardship, integrating field studies into her teaching.",
+        "image": "images/staff9.webp"
+    },
+    {
+        "id": 7,
+        "name": "Mr. Bongani Cele",
+        "age": 36,
+        "subjects": ["History"],
+        "grades": ["Grade 10", "Grade 11", "Grade 12"],
+        "qualifications": "BA in History and Education, University of the Witwatersrand",
+        "description": "Mr. Cele brings history to life through storytelling, debate, and critical analysis. He helps learners connect past events to modern society and develop strong research skills.",
+        "image": "images/staff5.webp"
+    },
+    {
+        "id": 8,
+        "name": "Mrs. Roxy Smith",
+        "age": 39,
+        "subjects": ["Business Studies"],
+        "grades": ["Grade 10", "Grade 11", "Grade 12"],
+        "qualifications": "BCom in Business Education, University of the Free State",
+        "description": "Mrs. Smith empowers learners with practical business knowledge and entrepreneurial thinking. Her lessons focus on financial literacy, innovation, and leadership skills for the modern economy.",
+        "image": "images/staff10.webp"
+    }
+]

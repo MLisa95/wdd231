@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Lisakhanya Gasa">
+    <meta description="A landing page for my final project">
+    <title>Lisakhanya Gasa Final Project</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/join-us.css">
+    <script src="scripts/subjects.js" defer></script>
+    <!-- <script src="scripts/.js" defer></script> -->
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="images/final-logo.png" alt="Logo for Mr E Tutoring Services">
+            <h1>Mr. E Extra Tuition</h1>
+        </div>
+
+        <nav id="nav-menu" class="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="staff.html"></a>Staff</li>
+                <li><a href="join-us.html" class="active"></a>Join</li> <!-- not form part of 3 pages 😭😭😭😭 -->
+            </ul>
+        </nav>
+    </header>
+
+     <main class="form-container">
+        
+
+            <form id="joinForm" method="get" action="submit.html">
+                <h2>Become Our Student</h2>
+
+                <fieldset>
+                    <legend>Personal Information</legend>
+
+                    <label for="firstName">First Name:
+                        <input type="text"
+                        id="firstName"
+                        name="firstName"
+                        required
+                        title="Enter your first name"
+                        autocomplete="given-name"
+                        placeholder="Jane">
+                    </label>
+
+                    <label for="lastName">Last Name:
+                        <input type="text"
+                        id="lastName"
+                        name="lastName"
+                        required
+                        title="Enter your last name"
+                        autocomplete="family-name"
+                        placeholder="Doe">
+                    </label>
+
+                    <label for="email">Email:
+                        <input type="email"
+                        id="email"
+                        name="email"
+                        required
+                        title="Enter your email address"
+                        autocomplete="email"
+                        placeholder="email@someone.co.za">
+                    </label>
+
+                    <label for="phone">Phone Number:
+                        <input type="tel"
+                        id="phone"
+                        name="phone"
+                        required
+                        title="Enter your phone number"
+                        autocomplete="tel">
+                    </label>
+
+                    <label for="street">Street Address:
+                        <input type="text"
+                        id="street"
+                        name="street"
+                        autocomplete="address-line1"
+                        required>
+                    </label>
+                    
+                    <label for="city">City:
+                        <input type="text"
+                        id="city"
+                        name="city"
+                        autocomplete="address-level2"
+                        required>
+                    </label>
+
+                    <label for="province">Province:
+                        <input type="text"
+                        id="province"
+                        name="province"
+                        autocomplete="address-level1"
+                        required>
+                    </label>
+
+                    <label for="postal">Postal Code:
+                        <input type="text"
+                        id="postal"
+                        name="postal"
+                        autocomplete="postal-code"
+                        required>
+                    </label>
+
+                    <label for="country">Country:
+                        <input type="text"
+                        id="country"
+                        name="country"
+                        autocomplete="country"
+                        required>
+                    </label>
+
+                </fieldset>
+                    
+                <fieldset>
+
+                    <legend>Parent Information</legend>
+
+                    <label for="firstName">First Name:
+                        <input type="text"
+                        id="firstName"
+                        name="firstName"
+                        required
+                        title="Enter your first name"
+                        autocomplete="given-name">
+                    </label>
+
+                    <label for="lastName">Last Name:
+                        <input type="text"
+                        id="lastName"
+                        name="lastName"
+                        required
+                        title="Enter your last name"
+                        autocomplete="family-name">
+                    </label>
+
+                    <label for="email">Email:
+                        <input type="email"
+                        id="email"
+                        name="email"
+                        required
+                        title="Enter your email address"
+                        autocomplete="email"
+                        placeholder="email@someone.co.za">
+                    </label>
+
+                    <label for="phone">Phone Number:
+                        <input type="tel"
+                        id="phone"
+                        name="phone"
+                        required
+                        title="Enter your phone number"
+                        autocomplete="tel">
+                    </label>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Subjects:</legend>
+
+                    <label for="grade">Enter your Grade:
+                        <input type="number"
+                        id="grade"
+                        name="grade"
+                        min="1"
+                        max="12"
+                        required>
+
+                        <!-- div for where subjects will appear dynamically depending on grade -->
+                        <div  id="subject-cards" class="subjects-container"></div>
+
+                    </label>
+                    
+
+                    <div id="subjectInputs">
+                        <!-- Subject fields appearing dynamically after choosing number of subjects -->
+                    </div>
+
+                </fieldset>
+
+
+
+                <input type="hidden" id="timestamp" name="timestamp" value="">
+
+                <button type="submit">Apply for Tutoring</button>
+
+                </fieldset>
+                
+            </form>
+
+            <div id="subjectInfo" class="modal">
+                <div class="modal-info">
+                    <button class="close-button">✖️</button>
+                    <h3 id="modalTitle"></h3>
+                    <p id="modalDescription"></p>
+                </div>
+            </div>
+    </main>
+
+</body>

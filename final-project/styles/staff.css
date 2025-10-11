@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+#staffContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin: 3rem;
+}
+
+
+.staff-card {
+    background-color: azure;
+    align-items: center;
+    border: solid var(--primary-light);
+    border-radius: 20px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.staff-image {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: solid var(--accent-color);
+    padding-top: 1;
+    object-fit: cover;
+}
+
+/* GRID & LIST VIEW STYLING */
+select {
+    background-color: var(--accent-color);
+    height: 2rem;
+    border: none;
+    border-radius: 6px;
+}
+
+button {
+    background-color: var(--primary-light);
+    height: 4rem;
+    width: 4rem;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 6px;
+    padding: 7px;
+    margin-top: 1rem;
+}
+
+.view-toggle {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.filter-group {
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    /* gap: 1rem; */
+}
+
+.grid-view {
+    display: grid;
+}
+
+.staff-controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
