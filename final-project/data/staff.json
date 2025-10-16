@@ -7,6 +7,10 @@
         "grades": ["Grade 4", "Grade 5", "Grade 6", "Grade 7"],
         "qualifications": "BEd in Intermediate Phase Teaching, University of Pretoria",
         "description": "Mrs. Khumalo is a passionate educator with over 12 years of experience in STEM education. She loves turning complex math problems into fun challenges for her learners.",
+        "experience": "Over 12 years teaching Mathematics and Natural Sciences in primary schools.",
+        "quote": "Every child can learn — just not on the same day or in the same way.",
+        "email": "zkhumalo@mr-extra.edu",
+        "phone": "082-145-3920",
         "image": "images/staff2.webp"
     },
     {
@@ -17,6 +21,10 @@
         "grades": ["Grade 4", "Grade 5", "Grade 6", "Grade 7", "Grade 8", "Grade 9"],
         "qualifications": "BTech in Education and Training, Tshwane University of Technology",
         "description": "Mr. Mokoena combines practical skills and innovation to inspire learners to think creatively and apply technology to real-world problems.",
+        "experience": "15 years in education, including 8 years specializing in Technology and EMS.",
+        "quote": "Innovation starts with curiosity and courage.",
+        "email": "tmokoena@mr-extra.edu",
+        "phone": "083-657-8892",
         "image": "images/staff1.webp"
     },
     {
@@ -27,6 +35,10 @@
         "grades": ["Grade 4", "Grade 5", "Grade 6", "Grade 7"],
         "qualifications": "BA in English and Psychology, University of Johannesburg",
         "description": "Ms. Dlamini encourages communication and confidence through reading and writing. Her lessons often include storytelling and group activities.",
+        "experience": "6 years of experience in English Language teaching and literacy development.",
+        "quote": "Words shape the world — one story at a time.",
+        "email": "ldlamini@mr-extra.edu",
+        "phone": "076-338-1159",
         "image": "images/staff4.webp"
     },
     {
@@ -37,6 +49,10 @@
         "grades": ["Grade 10", "Grade 11", "Grade 12"],
         "qualifications": "BSc in Physical Sciences, UNISA; PGCE in Mathematics Education",
         "description": "Mr. Nkosi's classes are known for hands-on experiments and real-life problem solving that help learners grasp scientific principles deeply.",
+        "experience": "10 years teaching Mathematics and Science in the FET phase.",
+        "quote": "Science is not about memorizing facts, but exploring how things work.",
+        "email": "snkosi@mr-extra.edu",
+        "phone": "084-774-2903",
         "image": "images/staff3.webp"
     },
     {
@@ -47,6 +63,10 @@
         "grades": ["Grade 10", "Grade 11", "Grade 12"],
         "qualifications": "BA in Languages and Life Sciences, Stellenbosch University",
         "description": "Mrs. Mthembu brings her expertise in both languages and life sciences to the senior phase, empowering learners to balance analytical and creative thinking.",
+        "experience": "13 years of experience teaching high school Afrikaans and Life Sciences.",
+        "quote": "Learning is a journey — not a race.",
+        "email": "nmthembu@mr-extra.edu",
+        "phone": "082-926-4710",
         "image": "images/staff7.webp"
     },
     {
@@ -57,6 +77,10 @@
         "grades": ["Grade 10", "Grade 11", "Grade 12"],
         "qualifications": "BEd in Natural and Geographical Sciences, University of KwaZulu-Natal",
         "description": "Ms. Mahlangu inspires curiosity about the natural world and environmental stewardship, integrating field studies into her teaching.",
+        "experience": "4 years of experience teaching Geography in high schools.",
+        "quote": "The world is our classroom — explore it!",
+        "email": "nmahlangu@mr-extra.edu",
+        "phone": "073-558-6421",
         "image": "images/staff9.webp"
     },
     {
@@ -67,6 +91,10 @@
         "grades": ["Grade 10", "Grade 11", "Grade 12"],
         "qualifications": "BA in History and Education, University of the Witwatersrand",
         "description": "Mr. Cele brings history to life through storytelling, debate, and critical analysis. He helps learners connect past events to modern society and develop strong research skills.",
+        "experience": "9 years teaching History at the senior level.",
+        "quote": "History doesn't repeat itself — people do.",
+        "email": "bcele@mr-extra.edu",
+        "phone": "071-440-3225",
         "image": "images/staff5.webp"
     },
     {
@@ -77,6 +105,10 @@
         "grades": ["Grade 10", "Grade 11", "Grade 12"],
         "qualifications": "BCom in Business Education, University of the Free State",
         "description": "Mrs. Smith empowers learners with practical business knowledge and entrepreneurial thinking. Her lessons focus on financial literacy, innovation, and leadership skills for the modern economy.",
+        "experience": "11 years of experience in teaching Business Studies and entrepreneurship.",
+        "quote": "Great leaders start as great learners.",
+        "email": "rsmith@mr-extra.edu",
+        "phone": "083-995-1840",
         "image": "images/staff10.webp"
     }
 ]

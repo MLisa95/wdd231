@@ -2,14 +2,16 @@
     margin: 0;
 }
 
-form {
-    width: 100%;
-    margin: 1rem;
+main {
+    display: flex;
+    justify-content: center;   /* centers horizontally */
+    align-items: center;       /* centers vertically */
 }
 
-.form-container {
-    display: grid;
-    /* grid-template-columns: 70% 30%; */
+
+form {
+    width: 40%;
+    /* max-width: 900px; */
 }
 
 fieldset {
@@ -27,15 +29,51 @@ legend {
 
 label {
     display: grid;
-    /* grid-template-columns: 40% 60%; */
     font-family: var(--font-body);
 }
 
 input {
-    width: 70%;
+    width: 100%;
     border-left: solid red;
     height: 2rem;
     border-radius: 6px;
     margin-bottom: 1rem;
     padding-left: 0.2rem;
+}
+
+button {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+/* SUBJECT TAGS STYLING */
+.subjects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.subject-tag {
+    display: inline-flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 0.4rem 0.75rem;
+    font-size: 0.9rem;
+    font-family: var(--font-body, "Poppins", sans-serif);
+    color: #333;
+    cursor: default;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.subject-tag button {
+    background: transparent;
+    border: none;
+    color: #666;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
 }

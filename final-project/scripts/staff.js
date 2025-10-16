@@ -58,8 +58,13 @@ document.addEventListener("DOMContentLoaded", () => {
                         <p><strong>Grades:</strong> ${member.grades.join(", ")}</p>
                         <p><strong>Qualifications:</strong> ${member.qualifications}</p>
                         <p class="desc">${member.description}</p>
+                        <button class="learn-more">Learn More</button>
                     </div>
             `;
+
+            // opening modal
+            const learnMoreBtn = card.querySelector(".learn-more");
+            learnMoreBtn.addEventListener("click", () => openStaffModal(member));
 
             staffContainer.appendChild(card);
         });
@@ -97,3 +102,18 @@ document.addEventListener("DOMContentLoaded", () => {
         gridViewBtn.classList.remove("active");
     });
 });
+
+// modalsssss!!
+const modal = document.getElementById("staffModal");
+const closeModal = document.getElementById("closeModal");
+
+function openStaffModal(staff) {
+    document.getElementById("modalName").textContent = staff.name;
+    document.getElementById("modalExperience").textContent = `${staff.experience}`;
+    document.getElementById("modalContact").textContent = `📧 ${staff.email} | ☎️ ${staff.phone}`;
+    document.getElementById("modalQuote").textContent = `"${staff.quote}`;
+
+    modal.showModal();
+
+    closeModal.addEventListener("click", () => modal.close());
+}

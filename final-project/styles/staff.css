@@ -6,6 +6,16 @@
     box-sizing: border-box;
 }
 
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: var(--font-headings);
+}
+
+/* STAFF CARDS */
+
 #staffContainer {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -15,30 +25,50 @@
 
 
 .staff-card {
-    background-color: azure;
+    background-color: rgb(255, 254, 180);
     align-items: center;
-    border: solid var(--primary-light);
+    border: 5px solid var(--accent-color);
     border-radius: 20px;
     padding: 1rem;
     display: flex;
     flex-direction: column;
 }
 
+.staff-card:hover {
+    box-shadow: 5px 7px 7px rgba(170, 145, 0, 0.7);
+}
+
 .staff-image {
     height: 250px;
     width: 250px;
     border-radius: 50%;
-    border: solid var(--accent-color);
-    padding-top: 1;
+    border: 3px solid var(--primary-color);
     object-fit: cover;
 }
 
-/* GRID & LIST VIEW STYLING */
+.staff-info {
+    padding-top: 1rem;
+    text-align: center;
+    font-family: var(--font-body);
+}
+
+.desc {
+    padding-top: 1rem;
+}
+
+h3 {
+    padding-bottom: 1rem;
+    font-family: var(--font-headings);
+}
+
+/* STAFF CONTROLS STYLING */
 select {
     background-color: var(--accent-color);
-    height: 2rem;
+    /* height: 2rem; */
     border: none;
     border-radius: 6px;
+    font-size: 1.3rem;
+    padding: 1rem;
 }
 
 button {
@@ -51,6 +81,9 @@ button {
     border-radius: 6px;
     padding: 7px;
     margin-top: 1rem;
+    font-family: var(--font-headings);
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 
 .view-toggle {
@@ -74,4 +107,23 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+option {
+    background-color: white;
+}
+
+/* GRID - LIST VIEW STYLING */
+
+
+/* MODAL CSS */
+dialog {
+    height: 50%;
+    background-color: var(--primary-light);
+    padding: 1rem;
+    border-radius: 6px;
+}
+
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.4);;
 }

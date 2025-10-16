@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta author="Lisakhanya Gasa">
     <meta description="A landing page for my final project">
-    <title>Lisakhanya Gasa Final Project</title>
+    <title>Lisakhanya Gasa Final Project - Joining Form</title>
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/join-us.css">
     <script src="scripts/subjects.js" defer></script>
-    <!-- <script src="scripts/.js" defer></script> -->
+    <script src="scripts/join-us.js" defer></script>
+
 </head>
 
 <body>
@@ -24,8 +25,8 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="staff.html"></a>Staff</li>
-                <li><a href="join-us.html" class="active"></a>Join</li> <!-- not form part of 3 pages 😭😭😭😭 -->
+                <li><a href="staff.html">Staff</a></li>
+                <li><a href="join-us.html" class="active">Join</a></li> <!-- not form part of 3 pages 😭😭😭😭 -->
             </ul>
         </nav>
     </header>
@@ -33,7 +34,7 @@
      <main class="form-container">
         
 
-            <form id="joinForm" method="get" action="submit.html">
+            <form id="joinForm" method="get" action="thank-you.html">
                 <h2>Become Our Student</h2>
 
                 <fieldset>
@@ -167,22 +168,22 @@
                     <legend>Subjects:</legend>
 
                     <label for="grade">Enter your Grade:
-                        <input type="number"
-                        id="grade"
-                        name="grade"
-                        min="1"
-                        max="12"
-                        required>
-
-                        <!-- div for where subjects will appear dynamically depending on grade -->
-                        <div  id="subject-cards" class="subjects-container"></div>
-
+                        <input type="number" id="grade" name="grade" min="1" max="12" required>
                     </label>
+
+                    <label for="subjectList">Select your Subject(s):
+                        <select id="subjectSelect">
+                            <option value="">-- Choose a Subject --</option>
+                        </select>
+                    </label>
+
+                    <div id="selectedSubjects" class="subjects-container" aria-live="polite">
+                        <!-- selected subjects to appear in this container -->
+
+                        <!-- appear dynamically, have no form elements, URLSearchParams cannot read -->
+                    </div>
                     
 
-                    <div id="subjectInputs">
-                        <!-- Subject fields appearing dynamically after choosing number of subjects -->
-                    </div>
 
                 </fieldset>
 
@@ -190,19 +191,12 @@
 
                 <input type="hidden" id="timestamp" name="timestamp" value="">
 
-                <button type="submit">Apply for Tutoring</button>
+                <button type="submit" class="submit">Apply for Tutoring</button>
 
                 </fieldset>
                 
             </form>
 
-            <div id="subjectInfo" class="modal">
-                <div class="modal-info">
-                    <button class="close-button">✖️</button>
-                    <h3 id="modalTitle"></h3>
-                    <p id="modalDescription"></p>
-                </div>
-            </div>
     </main>
 
 </body>
