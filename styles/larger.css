@@ -1,0 +1,82 @@
+@media only screen and (min-width: 38rem) {
+    
+    .hamburger {
+        display: none;
+    }
+
+    header {
+        grid-template-columns: 30px auto;
+    }
+
+    /* prevent being too wide */
+    header, nav, footer, main {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .navigation {
+        display: block;
+    }
+
+    .navigation ul {
+        display: flex;
+    }
+
+    .navigation a {
+        border: none;
+    }
+
+    /* SECTIONS */
+    .about-me {
+        display: flex;
+        height: auto;
+        gap: 2rem;
+        padding-left: 10px;
+        padding-top: none;
+    }
+
+    .description {
+        flex: 3 1 0;
+        padding: 0.5rem;
+        background-color: rgb(250, 240, 187);
+        
+    }
+
+    .image {
+        flex: 2 1 0;
+        padding: 0.5rem;
+        background-color: rgb(250, 240, 187);
+    }
+
+    .image img {
+        width: 100%;
+        height: auto;
+    }
+
+    h2 {
+        background-color: #5e4312ff;
+        padding: 0.5rem;
+        border-radius: 6px 6px 0 0;
+        color:  white;
+    }
+
+    /* COURSE CARDS */
+
+    .courses {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 3rem;
+        padding-bottom: 10px;
+    }
+
+    .course-card {
+        background-color: #5e4312ff;
+        width: 100px;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    .completed {
+        background-color: rgb(207, 187, 85);
+    }
+}

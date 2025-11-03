@@ -1,0 +1,118 @@
+/* STYLING FOR SMALLER SCREENS */
+
+* {
+    font-family: "Roboto", sans-serif;;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 30px auto 40px;
+    border-bottom: solid 1px black;
+    align-items: end;
+    padding: 5px 0 5px 10px;
+    column-gap: 20px;
+}
+
+header img {
+    display: block;
+    width: 100%; /* of the container */
+    height: auto;
+    
+}
+
+header span {
+    color: #5e4312ff;
+    font-weight: bold;
+}
+
+/* HAMBURGER */
+.hamburger::before {
+    content: "\2630";
+    font-size: 1.3rem;
+    
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+}
+
+.hamburger {
+    background: none;
+    border: none;
+    color: #5e4312ff;
+    cursor: pointer;
+}
+
+/* NAVIGATION */
+
+/* togglinggggg */
+.navigation {
+    display: none;
+}
+
+.navigation.show {
+    display: block;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 5px;
+}
+
+/* anchors a= inline elements, change to block */
+.navigation a {
+    display: block;
+    padding: .8rem 10px;
+    color: #5e4312ff;
+    text-decoration: none;
+    border-bottom: rgb(207, 187, 85);
+}
+
+.navigation li.active {
+    background-color: rgb(250, 240, 187);
+}
+
+.navigation a:hover {
+    background-color: rgb(207, 187, 85);
+}
+
+
+h1 {
+    padding-left: 10px;
+}
+
+/* FOOTER */
+footer {
+    background-color:  rgb(250, 240, 187);
+    padding: 1rem 10px;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.social-icons a {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px rgb(207, 187, 85);
+    border-radius: 10px;
+}
+
+.social-icons img {
+    width: 25px;
+    height: 25px;
+}
+
+.social-icons a:hover {
+    background-color: rgb(207, 187, 85);
+}
+

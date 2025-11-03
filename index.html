@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Home Page - Lisakhanya</title>
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- SCRIPTS -->
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <img src="images/briefcase-logo.svg" alt="Site Logo">
+        <span>Lisakhanya Masiza</span>
+        <button id="hamBtn" class="hamburger"></button>
+    </header>
+
+    <nav id="navLinks" class="navigation">
+        <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">Final</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Home</h1>
+        <div class="about-me">
+            <!-- SECTION 1 -->
+            <section class="description">
+                <h2>About Me</h2>
+                <p>My name is Lisakhanya Masiza and I live in South Africa, in the second largest 
+                    township called Mdantsane. I currently serve as a Young Woman President in 
+                    Ward 2 Mdantsane. I am married with 3 beautiful children. I love readon, swimming 
+                and very mean on the tennis court (which may not be entirely true since I haven't 
+                played in over 2 years now).</p>
+            </section>
+
+            <!-- SECTION 2 -->
+            <section class="image">
+                <h2>Student Photo</h2>
+                <img src="images/my-photo.jpg" alt="Photo of Myself">
+            </section>
+        </div>
+
+         <!-- SECTION 3 -->
+        <section>
+            <h2>Web Certificate Courses</h2>
+
+            <div id="courseContainer" class="courses"></div>
+
+            <div id="totalCredits"></div>
+        </section>
+
+    </main>
+
+    <footer>
+        <!-- ITEM 1 -->
+        <div class="social-icons">
+            <a href="https://www.facebook.com/share/1AqDTN1szq/" target="_blank"><img src="images/facebook.svg" alt="Facebook Icon"></a>
+            <a href="https://www.linkedin.com/in/lisakhanya-masiza-10lm10/" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn Icon"></a>
+            <a href="https://github.com/MLisa95" target="_blank"><img src="images/github.svg" alt="GitHub Icon"></a>
+        </div>
+
+        <!-- ITEM 2 -->
+        <div class="my-details">
+            <span id="currentYear"></span>
+
+            <p>Lisakhanya Masiza</p>
+
+            <p>South Africa</p>
+        </div>
+
+        <!-- ITEM 3 -->
+         <div class="date">
+            <p id="lastModified"></p>
+         </div>
+
+
+    </footer>
+</body>
+</html>
