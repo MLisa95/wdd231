@@ -116,3 +116,49 @@ footer {
     background-color: rgb(207, 187, 85);
 }
 
+/* SECTIONS */
+
+.description {
+        flex: 3 1 0;
+        padding: 0.5rem;
+        background-color: rgb(250, 240, 187);
+        
+}
+
+h2 {
+        background-color: #5e4312ff;
+        padding: 0.5rem;
+        border-radius: 6px 6px 0 0;
+        color:  white;
+}
+
+.image {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 240, 187);
+}
+
+.image img {
+    width: 60%;
+}
+
+/* COURSE CARDS */
+.course-card {
+    background-color: #5e4312ff;
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.completed {
+    background-color: rgb(207, 187, 85);
+}
+
+.courses {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3rem;
+        padding-bottom: 10px;
+    }
+
