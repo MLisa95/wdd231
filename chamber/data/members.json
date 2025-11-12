@@ -1,0 +1,113 @@
+[
+    {
+      "name": "TechTrail Innovations",
+      "address": "45 Belmont Road, Rondebosch, Cape Town, 7700",
+      "phone": "+27 21 458 9021",
+      "email": "info@techtrail.co.za",
+      "website": "https://www.techtrail.co.za",
+      "image": "images/image1.png",
+      "membershipLevel": "gold",
+      "industry": "Software Development",
+      "description": "Building next-generation web and mobile solutions for local startups."
+    },
+    {
+      "name": "GreenEarth Organics",
+      "address": "12 Cedar Avenue, Sandton, Johannesburg, 2196",
+      "phone": "+27 11 523 7760",
+      "email": "hello@greenearth.co.za",
+      "website": "https://www.greenearth.co.za",
+      "image": "images/image2.png",
+      "membershipLevel": "silver",
+      "industry": "Agriculture",
+      "description": "Sustainable organic farming and distribution of fresh produce across Gauteng."
+    },
+    {
+      "name": "Savvy Designs Studio",
+      "address": "89 Florida Road, Morningside, Durban, 4001",
+      "phone": "+27 31 326 8814",
+      "email": "designs@savvystudio.co.za",
+      "website": "https://www.savvystudio.co.za",
+      "image": "images/image3.png",
+      "membershipLevel": "member",
+      "industry": "Graphic Design",
+      "description": "Creative branding and web design solutions for small to medium businesses."
+    },
+    {
+      "name": "AquaPure Water Solutions",
+      "address": "7 Lakeside Drive, East London, 5201",
+      "phone": "+27 43 786 2240",
+      "email": "support@aquapure.co.za",
+      "website": "https://www.aquapure.co.za",
+      "image": "images/image4.png",
+      "membershipLevel": "gold",
+      "industry": "Water Treatment",
+      "description": "Providing clean and safe water purification systems for homes and industries."
+    },
+    {
+      "name": "EduBright Learning Centre",
+      "address": "102 Victoria Street, Pietermaritzburg, 3201",
+      "phone": "+27 33 559 8820",
+      "email": "admin@edubright.co.za",
+      "website": "https://www.edubright.co.za",
+      "image": "images/image5.png",
+      "membershipLevel": "silver",
+      "industry": "Education",
+      "description": "After-school tutoring and coding classes for learners aged 8–16."
+    },
+    {
+      "name": "SolarSavvy Energy",
+      "address": "55 Van Riebeeck Avenue, Edenvale, 1609",
+      "phone": "+27 10 789 1245",
+      "email": "sales@solarsavvy.co.za",
+      "website": "https://www.solarsavvy.co.za",
+      "image": "images/image6.png",
+      "membershipLevel": "gold",
+      "industry": "Renewable Energy",
+      "description": "Experts in solar power installation and off-grid energy systems."
+    },
+    {
+      "name": "Urban Bean Coffee Co.",
+      "address": "23 Long Street, Cape Town City Centre, 8001",
+      "phone": "+27 21 455 3210",
+      "email": "orders@urbanbean.co.za",
+      "website": "https://www.urbanbean.co.za",
+      "image": "images/image7.png",
+      "membershipLevel": "member",
+      "industry": "Food & Beverage",
+      "description": "Local coffee roasters serving premium blends and pastries."
+    },
+    {
+      "name": "SafeRide Transport",
+      "address": "14 Beacon Street, Gqeberha, 6001",
+      "phone": "+27 41 509 6612",
+      "email": "bookings@saferide.co.za",
+      "website": "https://www.saferide.co.za",
+      "image": "images/image8.png",
+      "membershipLevel": "silver",
+      "industry": "Transport",
+      "description": "Affordable and reliable shuttle services across the Eastern Cape."
+    },
+    {
+      "name": "BlueWave Digital Agency",
+      "address": "6 Oxford Road, Rosebank, Johannesburg, 2196",
+      "phone": "+27 11 880 3321",
+      "email": "contact@bluewave.co.za",
+      "website": "https://www.bluewave.co.za",
+      "image": "images/image9.png",
+      "membershipLevel": "gold",
+      "industry": "Marketing & Advertising",
+      "description": "Helping brands grow through social media, SEO, and content marketing."
+    },
+    {
+      "name": "Bloom Health & Wellness",
+      "address": "39 Station Road, Claremont, Cape Town, 7708",
+      "phone": "+27 21 442 9930",
+      "email": "wellness@bloom.co.za",
+      "website": "https://www.bloomwellness.co.za",
+      "image": "images/image10.png",
+      "membershipLevel": "member",
+      "industry": "Health & Wellness",
+      "description": "Holistic health centre offering yoga, nutrition plans, and massage therapy."
+    }
+]
+
