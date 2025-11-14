@@ -1,19 +1,18 @@
-const businesses = document.querySelector("#grid-list")
 const gridBtn = document.querySelector("#gridView");
 const listBtn = document.querySelector("#listView");
 
 gridBtn.addEventListener("click", () => {
-    businesses.classList.add("grid-view");
-    businesses.classList.remove("list-view");
+    businesses.classList.add("grid");
+    businesses.classList.remove("list");
 
     gridBtn.classList.add("active");
     listBtn.classList.remove("active");
 });
 
 listBtn.addEventListener("click", () => {
-    businesses.classList.add("list-view");
-    businesses.classList.remove("grid-view");
+  businesses.classList.add("list");
+  businesses.classList.remove("grid");
 
-    listBtn.classList.add("active");
-    gridBtn.classList.remove("active");
+  listBtn.classList.add("active");
+  gridBtn.classList.remove("active");
 });

@@ -33,20 +33,19 @@
     <header>
         <img src="images/qonce-logo.png" alt="Site Logo">
         <span>Qonce Chamber of Commerce</span>
-        <button id="hamBtn" class="hamburger"></button>
     </header>
 
     <main>
 
-        <section class="view-toggle">
-            <button id="gridView" class="active">
+        <div class="view-toggle">
+            <button id="gridView" aria-label="Switch to grid view">
                 <img src="images/grid-icon.svg" alt="Grid View Button">
             </button>
-            <button id="listView">
+            <button id="listView" aria-label="Switch to list view">
                 <img src="images/list-icon.svg" alt="List View Button">
             </button>
-        </section>
-        
-        <div id="grid-list" class="members"></div>
+        </div>
+
+        <section id="grid-list" class="members"></section>
     </main>
 </body>
