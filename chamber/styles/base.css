@@ -57,6 +57,13 @@ header span {
     color: white;
 }
 
+/****** DEFAULT VIEW ******/
+.members {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+}
+
 /****** GRID VIEW ******/
 .members.grid {
     display: grid;
@@ -82,11 +89,6 @@ header span {
     width: 80%;
     height: 80%;
     object-fit: contain;
-}
-
-.member-details {
-    /* padding: 1rem; */
-    
 }
 
 /****** LIST VIEW ******/

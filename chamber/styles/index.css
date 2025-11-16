@@ -1,0 +1,23 @@
+.current-events {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.event {
+    width: 30%;
+    background-color: #CD9FCC;
+}
+
+.event img {
+    width: 80%;
+    height: auto;
+    
+}
+
+h2 {
+    background-color: #4B4E6D;
+    color: white;
+}
