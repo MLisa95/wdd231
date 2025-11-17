@@ -27,6 +27,7 @@
     <!-- SCRIPTS -->
     <!-- <script src="scripts/members.js" defer></script> -->
     <script src="scripts/weather.js" defer></script>
+    <script src="scripts/spotlight.js" defer></script>
 
 </head>
 
@@ -45,36 +46,63 @@
         <button id="call-to-action">Join Chamber</button>
     </section>
 
-    <section class="current-events">
-        <div class="event">
-            <h2>Financial Literacy for Entrepreneurs</h2>
-            <img src="images/financial-literacy.jpg" alt="Image of Someone Counting Money">
-            <p>Financial literacy workshop teaches business owners how to
-                    manage cash flow, budget effectively, and make informed financial
-                    decisions.
-            </p>
-        </div>
+    <section class="spotlight-section">
+        <h2 class="spotlight-header">On the Spotlight:</h2>
+        <div id="spotlight" class="spotlight-businesses"></div> 
+    </section>
 
-        <div class="event">
-            <h2>Innovation Awards</h2>
-            <img src="images/innovation-awards.jpg" alt="">
-            <p>Recognizes local businesses that introduce creative products, services,
-                 or processes that drive growth and community impact.
-            </p>
-        </div>
+    <section>
+        <h2 class="upcoming">Upcoming Events...</h2>
+        <section class="current-events">
+            <div class="event">
+                <h2>Financial Literacy</h2>
+                <div class="event-container">
+                    <img src="images/financial-literacy.jpg" alt="Image of Someone Counting Money">
+                    <p>Financial literacy workshop teaches business owners how to
+                            manage cash flow, budget effectively, and make informed financial
+                            decisions.
+                    </p>
+                </div>
+            </div>
 
-        <div class="event">
-            <h2>Speed Networking</h2>
-            <img src="images/speed-networking.jpeg" alt="">
-            <p>A fast-paced event where business owners make quick connections and 
-                expand their professional network efficiently.
-            </p>
-        </div>
+            <div class="event">
+                <h2>Innovation Awards</h2>
+                <div class="event-container">
+                    <img src="images/innovation-awards.jpg" alt="Image of Award Ceremony">
+                    <p>Recognizes local businesses that introduce creative products, services,
+                        or processes that drive growth and community impact.
+                    </p>
+                </div>
+            </div>
+
+            <div class="event">
+                <h2>Speed Networking</h2>
+                <div class="event-container">
+                    <img src="images/speed-networking.jpeg" alt="">
+                    <p>A fast-paced event where business owners make quick connections and 
+                        expand their professional network efficiently.
+                    </p>
+                </div>
+            </div>
+        </section>
     </section>
 
     <!-- WEATHER -->
-    <section id="weather"></section>
+    <div class="forecast-details">
+        <section id="weather-forecast">
+            <h2>Weather Forecast</h2>
 
+            <!-- forecast -->
+            <div id="weather"></div>
+
+        </section>
+        
+        <section id="forecasts">
+            <h2>3 Day Forecast</h2>
+
+            <div id="threeDayFore"></div>
+        </section>
+    </div>
 
 </body>
 

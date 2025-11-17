@@ -34,7 +34,7 @@ async function loadBusiness() {
     
     } catch (error) {
         console.error("Error loading students:", error);
-        businesses.innerHTML = "<p>⚠️ Could not load student data.</p>";
+        businesses.innerHTML = "<p>⚠️ Could not load business data.</p>";
     }
 }
 
