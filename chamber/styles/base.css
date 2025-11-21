@@ -117,3 +117,44 @@ header span {
     justify-content: center;
     align-self: center;
 }
+
+/* FOOTER */
+footer {
+    background-color:  #CD9FCC;
+    padding: 1rem 10px;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.social-icons a {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px #d87bd8;
+    border-radius: 10px;
+}
+
+.social-icons img {
+    width: 25px;
+    height: 25px;
+}
+
+.social-icons a:hover {
+    background-color: #c574c4;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 4px solid #4B4E6D;
+    border-radius: 6px;
+}

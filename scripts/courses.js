@@ -118,5 +118,32 @@ function courseCredits(courseList) {
         totalCredits.textContent = `Total Credits: ${sum}`;
 }
 
+// SCRIPT FOR DISPLAYING COURSE DETAILS
+
+const modal = document.querySelector('#modal');
+
+function displayCourseInformation(course) {
+    modal.innerHTML = '';
+
+    modal.innerHTML = `
+    <button id="closeModal>❌</button>
+    <h2>${course.name} - ${course.number}</h2>
+    <p>${course.description}</p>
+    <p>${course.credits}</p>
+    `;
+
+    modal.showModal();
+
+    closeModal().addEventListener("click", () => {
+        modal.closest();
+    });
+
+    courseContainer.addEventListener("click", () => {
+        displayCourseInformation(course);
+    });
+
+}
+
 displayCourses(courses);
 courseCredits(courses);
+displayCourseInformation(course);

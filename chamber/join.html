@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Us - Chamber of Commerce</title>
+    <meta name="autor" content="Lisakhanya Masiza">
+    <meta name="description" content="A site that has information on the businesses listed from the Qonce city.">
+
+    <!-- FAVICON -->
+    <link rel="icon" href="images/qonce-fav.ico">
+
+    <!-- SOCIAL MEDIA TAGS -->
+    <meta property="og:title" content="Qonce Chamber of Commerce">
+    <meta property="og:description" content="Landing page for the Qonce Chamber of Commerce, giving details on businesses located in the town.">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="https://mlisa95.github.io/wdd231/chamber/diewctory.html">
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/form.css">
+
+    <!-- FONTS -->
+    
+
+    <!-- SCRIPTS -->
+    <script src="scripts/date.js" defer></script>
+    <script src="modal/date.js" defer></script>
+
+    
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <img src="images/qonce-logo.png" alt="Site Logo">
+        <span>Qonce Chamber of Commerce</span>
+    </header>
+
+    <main>
+        <form method="get" action="thankyou.html">
+
+            <h2>Membership Form</h2>
+            
+            <fieldset>
+                <legend>Personal Details:</legend>
+
+                <label for="fname">First Name:</label>
+                <input type="text"
+                    id="fname"
+                    name="fname"
+                    autocomplete="given-name"
+                    required>
+
+                <label for="lname">Last Name:</label>
+                <input type="text"
+                    id="lname"
+                    name="lname"
+                    autocomplete="family-name"
+                    required>
+
+                <label for="number">Phone Number:</label>
+                <input type="tel"
+                    id="phone"
+                    name="phone"
+                    autocomplete="tel"
+                    required
+                    title="Please ender a valid phone number">
+
+                <label for="email">Email Address:</label>
+                <input type="email"
+                    id="email"
+                    name="email"
+                    autocomplete="email"
+                    required
+                    placeholder="someone@email.co.za">
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Business Details:</legend>
+
+                <label for="org-name">Organization Name:</label>
+                <input type="text"
+                    id="org-name"
+                    name="org-name"
+                    autocomplete="organization"
+                    required>
+
+                <label for="org-title">Organizational Title:</label>
+                <input type="text"
+                    id="org-title"
+                    name="org-title"
+                    autocomplete="organization-title"
+                    required>
+
+                <label for="org-desc">Business Description:</label>
+                <input type="textarea"
+                    id="org-desc"
+                    name="org-desc"
+                    title="Please enter your otganization's title">
+
+                <label for="membership-level">Membership Level:</label>
+                <select id="membership-level" name="membership-level" required>
+                    <option value="">--Please choose an option---</option>
+                    <option value="np">NP Membership</option>
+                    <option value="bronze">Bronze Membership</option>
+                    <option value="silver">Silver Membership</option>
+                    <option value="gold">Gold Membership</option>
+                </select>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Membership Levels:</legend>
+
+                    <div class="membership-cards">
+                    
+                        <div class="card" data-modal="np-modal">
+                            <h4>Non-Profit Membership</h4>
+                            <img src="images/non-profit.png" Alt="Image of a Hand Holding a Heart">
+                            <button type="button">More information...</button>
+                        </div>
+
+                        <div class="card" data-modal="bronze-modal">
+                            <h4>Bronze Membership</h4>
+                            <img src="images/bronze.png" Alt="Image of a Bronze Medal">
+                            <button type="button">More information...</button>
+                        </div>
+
+                        <div class="card" data-modal="silver-modal">
+                            <h4>Silver Membership</h4>
+                            <img src="images/silver.png" Alt="Image of a Silver Medal">
+                            <button type="button">More information...</button>
+                        </div>
+
+                        <div class="card" data-modal="gold-modal">
+                            <h4>Gold Membership</h4>
+                            <img src="images/gold.png" Alt="Image of a Gold Medal">
+                            <button type="button">More information...</button>
+                        </div>
+                    </div>
+            </fieldset>
+
+            <button id="submit">Apply for Membership</button>
+
+            <input type="hidden" id="timestamp" name="timestamp">
+
+        </form>
+    </main>
+            
+    <!-- MODAL -->
+
+    <dialog id="np-modal" class="modal">
+        <h2>Non-Profit Membership Benefits</h2>
+        <p>
+            • Discounted dues<br>
+            • Free event access<br>
+            • Community directory listing
+        </p>
+        <button class="close">Close</button>
+    </dialog>
+
+    <dialog id="bronze-modal" class="modal">
+        <h2>Bronze Membership Benefits</h2>
+        <p>
+            • Basic advertising<br>
+            • Member directory highlight<br>
+            • 10% event discount
+        </p>
+        <button class="close">Close</button>
+    </dialog>
+
+    <dialog id="silver-modal" class="modal">
+        <h2>Silver Membership Benefits</h2>
+        <p>
+            • Enhanced advertising<br>
+            • Spotlight listing on home page<br>
+            • 20% event discount
+        </p>
+        <button class="close">Close</button>
+    </dialog>
+
+    <dialog id="gold-modal" class="modal">
+        <h2>Gold Membership Benefits</h2>
+        <p>
+            • Premium advertising<br>
+            • Featured spotlight on home page<br>
+            • Free attendance to select events<br>
+            • 30% event discount
+        </p>
+        <button class="close">Close</button>
+    </dialog>
+
+    <footer>
+        <!-- ITEM 1 -->
+        <div class="social-icons">
+            <a href="https://www.facebook.com/share/1AqDTN1szq/" target="_blank"><img src="images/facebook.svg" alt="Facebook Icon"></a>
+            <a href="https://www.linkedin.com/in/lisakhanya-masiza-10lm10/" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn Icon"></a>
+            <a href="https://github.com/MLisa95" target="_blank"><img src="images/github.svg" alt="GitHub Icon"></a>
+        </div>
+
+        <!-- ITEM 2 -->
+        <div class="my-details">
+            <span id="currentYear"></span>
+
+            <p>Lisakhanya Masiza</p>
+
+            <p>South Africa</p>
+        </div>
+
+        <!-- ITEM 3 -->
+         <div class="date">
+            <p id="lastModified"></p>
+         </div>
+
+
+    </footer>
+</body>
+</html>

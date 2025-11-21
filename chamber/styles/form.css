@@ -1,0 +1,96 @@
+/****** FORM LAYOUT ******/
+main {
+    min-height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+}
+
+fieldset {
+    margin-top: 2rem;
+    border: 1px solid #4B4E6D;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1.5rem;
+}
+
+form {
+    width: 100%;
+    max-width: 800px;
+    background-color: #f8ebf8;
+    padding: 3rem;
+}
+
+/****** MEMBERSHIP CARDS ******/
+
+fieldset > .membership-cards {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+div > div > img {
+    height: 80px;
+    width: 80px;
+}
+
+label {
+    padding-top: 1rem;
+}
+
+legend {
+    padding: 10px;
+    /* size: 2rem; */
+    font-size: 1.5rem;
+}
+
+input, select {
+    height: 1.5rem;
+}
+
+.membership-cards .card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;  
+    align-items: center;     
+    justify-content: center;
+    text-align: center;      
+    padding: 1rem;
+    border: 1px solid #ccc; 
+    border-radius: 8px;
+    width: 150px;            
+    height: 220px;    
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    background-color: #fff;
+}
+
+#submit {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    height: 3rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+/****** MODAL ******/
+dialog {
+    background-color: white;
+    border: 2px solid #4B4E6D;
+    border-radius: 6px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 500px;
+    min-height: 500px;
+    transform: translate(-50%, -50%)
+}
+
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.185);
+}
+
+/****** THANK YOU PAGE ******/

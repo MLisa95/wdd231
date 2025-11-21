@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Directory - Lisakhanya Masiza</title>
+    <title>Thank You - Chamber of Qonce</title>
     <meta name="autor" content="Lisakhanya Masiza">
     <meta name="description" content="A site that has information on the businesses listed from the Qonce city.">
 
@@ -19,35 +19,39 @@
     <!-- STYLES -->
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/form.css">
 
     <!-- FONTS -->
     
 
     <!-- SCRIPTS -->
-     <script src="scripts/date.js" defer></script>
-    <script src="scripts/members.js" defer></script>
-    <!-- <script src="scripts/grid-list.js" defer></script> -->
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/thankyou.js" defer></script>
 
 </head>
 
 <body>
+    <!-- HEADER -->
     <header>
         <img src="images/qonce-logo.png" alt="Site Logo">
         <span>Qonce Chamber of Commerce</span>
     </header>
 
     <main>
+        <div class="container">
+        <h1>Thank You!</h1>
+        <p>Your membership application has been successfully submitted.</p>
 
-        <div class="view-toggle">
-            <button id="gridView" aria-label="Switch to grid view">
-                <img src="images/grid-icon.svg" alt="Grid View Button">
-            </button>
-            <button id="listView" aria-label="Switch to list view">
-                <img src="images/list-icon.svg" alt="List View Button">
-            </button>
+        <div class="info">
+            <h2>Your Submission Details:</h2>
+            <p><strong>First Name:</strong> <span id="display-fname"></span></p>
+            <p><strong>Last Name:</strong> <span id="display-lname"></span></p>
+            <p><strong>Email:</strong> <span id="display-email"></span></p>
+            <p><strong>Phone Number:</strong> <span id="display-phone"></span></p>
+            <p><strong>Organization Name:</strong> <span id="display-orgName"></span></p>
+            <p><strong>Submitted On:</strong> <span id="display-timestamp"></span></p>
         </div>
 
-        <section id="grid-list" class="members"></section>
     </main>
 
     <footer>
@@ -74,5 +78,6 @@
 
 
     </footer>
+
 </body>
 </html>
