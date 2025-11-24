@@ -1,0 +1,23 @@
+body {
+    font-family: "Mulish", sans-serif;
+}
+
+.wireframes {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+h2 {
+    font-family: "Outfit", sans-serif;
+}
+

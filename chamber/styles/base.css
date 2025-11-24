@@ -7,9 +7,9 @@ body {
 }
 
 /****** HEADER ******/
-Header {
+header {
     display: grid;
-    grid-template-columns: 30px auto 40px;
+    grid-template-columns: 30px auto 300px;
     border-bottom: solid 1px black;
     align-items: end;
     padding: 5px 0 5px 10px;
@@ -25,6 +25,18 @@ header img {
 
 header span {
     color: #5e4312ff;
+    font-weight: bold;
+}
+
+nav .nav-links {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+nav .nav-links a {
+    text-decoration: none;
+    color: #4B4E6D;
     font-weight: bold;
 }
 
@@ -158,3 +170,4 @@ footer {
     border-top: 4px solid #4B4E6D;
     border-radius: 6px;
 }
+
