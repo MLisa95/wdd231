@@ -1,4 +1,4 @@
-[
+export const natureItems = [
     {
       "name": "Sunflower",
       "description": "A tall, bright yellow flower that looks like the sun.",
