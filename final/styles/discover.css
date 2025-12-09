@@ -1,0 +1,35 @@
+.nature {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.nature-card {
+    border: 2px solid #56a54b;
+    background-color: #dcf8c9;
+    padding: 1rem;
+    border-radius: 6px;
+}
+
+.nature-card figure {
+    margin: 0;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.nature-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 6px;
+}
+
+/****** LIST VIEW ******/
+
+
+.view {
+    /* margin-bottom: 2rem; */
+}

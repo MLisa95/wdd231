@@ -36,6 +36,9 @@ h2 {
     text-align: center;
 }
 
-body {
-    /* background-color: blue; */
+.visit-message {
+    text-align: center;
+    color: #4B4E6D;
+    font-weight: bold;
+    font-size: larger;
 }

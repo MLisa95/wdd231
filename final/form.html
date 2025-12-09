@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big World, Litlle People - Hone Page</title>
+    <meta name="author" content="Lisakhanya Masiza">
+    <meta name="description" content="">
+
+    <!-- FAVICON -->
+    <link rel="icon" href="images/final-favicon.ico">
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/discover.css">
+
+    <!-- SCRIPTS -->
+    <script type="module" src="scripts/discover.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="Logo Image">
+        <span>Big World Little People</span>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="learn.html">Learn</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="form.html" class="active">Join Us</a></li>
+            </ul>
+        </nav>
+    </header> 
+
+    <main>
+        <form method="get" action="thankyou.html">
+            <h2>Subscribe to Learn More</h2>
+
+            <fieldset>
+                <legend>Personal Details</legend>
+
+                <label for="fname">First Name:</label>
+                <input type="text"
+                id="fname"
+                    name="fname"
+                    autocomplete="given-name"
+                    required>
+
+                <label for="lname">Last Name:</label>
+                <input type="text"
+                    id="lname"
+                    name="lname"
+                    autocomplete="family-name"
+                    required>
+
+                <label for="number">Phone Number:</label>
+                <input type="tel"
+                    id="phone"
+                    name="phone"
+                    autocomplete="tel"
+                    required
+                    title="Please ender a valid phone number">
+
+                <label for="email">Email Address:</label>
+                <input type="email"
+                    id="email"
+                    name="email"
+                    autocomplete="email"
+                    required
+                    placeholder="someone@email.co.za">
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Membership Details:</legend>
+            </fieldset>
+
+            <button id="submit">Become an Explorer</button>
+
+            <input type="hidden" id="timestamp" name="timestamp">
+        </form>
+    </main>
+
+    <dialog id="sprout" class="modal">
+        <p>
+            • Weekly nature-themed activity sheets<br>
+            • Fun facts about plants and animals<br>
+            • Monthly email prompts for outdoor exploration
+        </p>
+        <button class="close">Close</button>
+    </dialog>
+
+    <dialog id="trailblazer" class="modal">
+        <p>
+            • Interactive map to track places explored and species explored<br>
+            • Access to educational nature videos<br>
+            • Nature badge challenges
+        </p>
+        <button class="close">Close</button>
+    </dialog>
+
+    <dialog id="sprout" class="modal">
+        <p>
+            • Weekly nature-themed activity sheets<br>
+            • Fun facts about plants and animals<br>
+            • Monthly email prompts for outdoor exploration
+        </p>
+        <button class="close">Close</button>
+    </dialog>
+
+    <dialog id="wild-guardian" class="modal">
+        <p>
+            • Early access to seasonal nature kits (seed packs & scavenger hunts)<br>
+            • Guardian Missions - mini projects to help nature<br>
+            • Feature spotlight on the site
+        </p>
+        <button class="close">Close</button>
+    </dialog>
+
+<footer>
+        <!-- SOCIAL ICONS -->
+        <div class="social-icons">
+            <img src="images/facebook.svg" alt="Facebook Icon">
+            <img src="images/linkedin.svg" alt="LinkedIn Icon">
+            <img src="images/whatsapp.svg" alt="Whatsapp Icon">
+        </div>
+
+        <!-- DATE -->
+        <div class="date">
+            <p id="lastModified"></p>
+
+        </div>
+    </footer>
+
+</body>
+</html>

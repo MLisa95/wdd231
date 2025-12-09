@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big World, Litlle People - Hone Page</title>
+    <meta name="author" content="Lisakhanya Masiza">
+    <meta name="description" content="">
+
+    <!-- FAVICON -->
+    <link rel="icon" href="images/final-favicon.ico">
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/discover.css">
+
+    <!-- SCRIPTS -->
+    <script type="module" src="scripts/discover.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="Logo Image">
+        <span>Big World Little People</span>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="learn.html">Learn</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="join-us.html">Join Us</a></li>
+            </ul>
+        </nav>
+    </header>   
+    
+    <main>
+        <div class="view">
+            <div class="grid-list">
+                <button id="gridView" aria-label="Switch to grid view">
+                    <img src="images/grid-icon.svg" alt="Grid View Button">
+                </button>
+                <button id="listView" aria-label="Switch to list view">
+                    <img src="images/list-icon.svg" alt="List View Button">
+                </button>
+            </div>
+
+        </div>
+
+        <section id="natureView" class="nature"></section>
+
+        
+
+        <dialog id="moreInfo"></dialog>
+    </main>   
+
+    <footer>
+        <!-- SOCIAL ICONS -->
+        <div class="social-icons">
+            <img src="images/facebook.svg" alt="Facebook Icon">
+            <img src="images/linkedin.svg" alt="LinkedIn Icon">
+            <img src="images/whatsapp.svg" alt="Whatsapp Icon">
+        </div>
+
+        <!-- DATE -->
+        <div class="date">
+            <p id="lastModified"></p>
+
+        </div>
+    </footer>
+
+</body>
+</html>
