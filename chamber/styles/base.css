@@ -1,19 +1,21 @@
 * {
     font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
 }
 
 body {
     /* background-color: yellow; */
+    overflow-x: hidden;
 }
 
 /****** HEADER ******/
 header {
     display: grid;
-    grid-template-columns: 30px auto 300px;
+    grid-template-columns: 30px auto 400px;
     border-bottom: solid 1px black;
     align-items: end;
     padding: 5px 0 5px 10px;
-    column-gap: 20px;
+    column-gap: 10px;
 }
 
 header img {
@@ -38,6 +40,14 @@ nav .nav-links a {
     text-decoration: none;
     color: #4B4E6D;
     font-weight: bold;
+}
+
+nav .nav-links a.active {
+    background: #CD9FCC;
+    padding: 5px;
+    border-radius: 6px;
+    box-shadow: inset 2px 3px 10px #4B4E6D;
+    color: white;
 }
 
 /****** TOGGLE ICONS ******/

@@ -10,6 +10,12 @@
     background-color: #ffe8ff;
     padding: 1rem;
     border-radius: 6px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
 }
 
 .card figure {
@@ -42,3 +48,5 @@ h2 {
     font-weight: bold;
     font-size: larger;
 }
+
+/****** CARD HOVER ******/

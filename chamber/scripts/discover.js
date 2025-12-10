@@ -9,10 +9,11 @@ qoncePoints.forEach((place) => {
     card.innerHTML = `
     <h2>${place.name}</h2>
     <figure>
-        <img src="${place.imageSrc}" alt="${place.name}">
+        <img src="${place.imageSrc}" alt="${place.name}" loading="lazy">
     </figure>
     <address>${place.address}</address>
-    <p>${place.description}</p>`
+    <p>${place.description}</p>
+    <button>Learn more...</button>`
 
     grid.appendChild(card);
 });
