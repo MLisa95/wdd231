@@ -13,7 +13,7 @@
     <!-- STYLES -->
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/discover.css">
+    <link rel="stylesheet" href="styles/index.css">
 
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,7 +21,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 
     <!-- SCRIPTS -->
-    <script type="module" src="scripts/discover.js" defer></script>
+    <script type="module" src="scripts/index.js" defer></script>
 
 </head>
 
@@ -37,29 +37,50 @@
                 <li><a href="join-us.html">Join Us</a></li>
             </ul>
         </nav>
-    </header>   
-    
+    </header>
+
     <main>
-        <div class="view">
-            <div class="grid-list">
-                <button id="gridView" aria-label="Switch to grid view">
-                    <img src="images/grid-icon.svg" alt="Grid View Button">
-                </button>
-                <button id="listView" aria-label="Switch to list view">
-                    <img src="images/list-icon.svg" alt="List View Button">
-                </button>
+        <section class="hero">
+            <div class="hero-image">
+                <img src="images/hero.jpg" alt="Image of a Child with a Magnifying Glass">
+            </div>
+            <button id="call-to-action">Explore!</button>
+        </section>
+
+        <section class="explore-categories" id="explore">
+
+            <!-- SPOTLIGHT CARD -->
+            <div class="card">
+                <h2>Spotlight</h2>
+                <div class="card-details">
+                    <figure>
+                        <img src="images/spotlight.webp" alt="Image of a Spotlight Child">
+                        <figcaption>Our Star Member of the Month: A dedicated learner and creator.</figcaption>
+                    </figure>
+                </div>
             </div>
 
-        </div>
+            <!-- THEME CARD -->
+            <div class="card">
+                <h2>Theme of the Month</h2>
+                <div id="theme" class="card-details"></div>
+            </div>
 
-        <section id="natureView" class="nature"></section>
+            <!-- FAVORITE ITEM -->
+            <div class="card">
+                <h2>Favorite Nature Item</h2>
+                <div class="card-details">
+                    <figure>
+                        <img src="images/rainbow.webp" alt="Image of a Spotlight Child">
+                        <figcaption>A colorful arc that appears in the sky after rain.</figcaption>
+                    </figure>
+                </div>
+            </div>
 
-        
+        </section>
+    </main>
 
-        <dialog id="moreInfo"></dialog>
-    </main>   
-
-    <footer>
+<footer>
         <!-- SOCIAL ICONS -->
         <div class="social-icons">
             <img src="images/facebook.svg" alt="Facebook Icon">

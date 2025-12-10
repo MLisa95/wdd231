@@ -57,3 +57,28 @@ nav .nav-links a {
     background-color: #4B4E6D;
     color: white;
 }
+
+/****** FOOTER ******/
+footer {
+    display: flex;
+    background-color: #A4DE7C;
+    padding: 10px;
+    margin-top: 1rem;
+}
+
+.social-icons {
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+}
+
+.social-icons img {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px #56a54b;
+    border-radius: 10px;
+    padding: 10px;
+}

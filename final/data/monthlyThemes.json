@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Sunshine Safari",
+    "month": "January",
+    "season": "Summer",
+    "description": "Insects, bugs, metamorphosis, and warm-weather discoveries.",
+    "imageSrc": "images/safari.webp"
+  },
+  {
+    "name": "Puddle & Polliwogs",
+    "month": "February",
+    "season": "Summer",
+    "description": "Wetlands wonders, frogs, tadpoles, and playful pond ecosystems.",
+    "imageSrc": "images/puddle.webp"
+  },
+  {
+    "name": "Hearts in the Wild",
+    "month": "March",
+    "season": "Autumn",
+    "description": "Discover loving animal families and nature’s heartwarming bonds.",
+    "imageSrc": "images/hearts-wild.webp"
+  },
+  {
+    "name": "Sky Dancers",
+    "month": "April",
+    "season": "Autumn",
+    "description": "Birds, clouds, sky-watching, and the beauty above us.",
+    "imageSrc": "images/sky-dancer.webp"
+  },
+  {
+    "name": "Gather & Give Thanks",
+    "month": "May",
+    "season": "Autumn",
+    "description": "Harvest time, seeds, gratitude, and celebrating nature’s gifts.",
+    "imageSrc": "images/gather.webp"
+  },
+  {
+    "name": "Winter's Whisper",
+    "month": "June",
+    "season": "Winter",
+    "description": "Exploring resting nature, hibernation, frost, and how life adapts during cold months.",
+    "imageSrc": "images/winter-whisper.webp"
+  },
+  {
+    "name": "Forest Friends",
+    "month": "July",
+    "season": "Winter",
+    "description": "Trees, woodland creatures, and discovering textures in nature.",
+    "imageSrc": "images/forest-friends.webp"
+  },
+  {
+    "name": "Mystery in the Moonlight",
+    "month": "August",
+    "season": "Winter",
+    "description": "Nocturnal animals, starry skies, and night-time adventures.",
+    "imageSrc": "images/mystery-moonlight.webp"
+  },
+  {
+    "name": "Sprout & Stretch",
+    "month": "September",
+    "season": "Spring",
+    "description": "New growth, curious seedlings, and the first signs of spring awakening.",
+    "imageSrc": "images/sprout-stretch.webp"
+  },
+  {
+    "name": "Buzz & Bloom",
+    "month": "October",
+    "season": "Spring",
+    "description": "Pollinators, flowers, bees, butterflies, and the magic they create together.",
+    "imageSrc": "images/buzz-bloom.webp"
+  },
+  {
+    "name": "Wild Water Wonders",
+    "month": "November",
+    "season": "Spring",
+    "description": "Rivers, oceans, aquatic life, and underwater exploration.",
+    "imageSrc": "images/water-wonder.webp"
+  },
+  {
+    "name": "Evergreen Magic",
+    "month": "December",
+    "season": "Summer",
+    "description": "Winter resilience, evergreen trees, and animal adaptations.",
+    "imageSrc": "images/evergreen.webp"
+  }
+]
